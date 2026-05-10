@@ -523,6 +523,16 @@ def load_alerts():
 
 
 # ── BOOTSTRAP ─────────────────────────────────────────────────────────────────
+# Auto-generate data on first run (needed for Streamlit Cloud)
+if not os.path.exists("data/attendance.csv"):
+    with st.spinner("Setting up data for first run — this takes about 15 seconds..."):
+        try:
+            import generate_data as _gd
+            _gd.generate_all()
+        except Exception as _e:
+            st.error(f"Data generation failed: {_e}")
+            st.stop()
+
 try:
     (df, students, summary, stu_rpt, sub_rpt, dept_rpt, trend, hrly,
      risk_stu, streaks, forecast, anomalies, whm,
@@ -531,7 +541,7 @@ try:
     df_grades, df_leaves, df_tchr = load_extra()
     ml_results, ml_scaler, ml_feat, ml_best, *_ = load_ml()
 except Exception as e:
-    st.error(f"**Setup required** — run `python generate_data.py` then retry.\n\n`{e}`")
+    st.error(f"**Setup failed** — {e}")
     st.stop()
 
 best_m   = ml_results[ml_best]
