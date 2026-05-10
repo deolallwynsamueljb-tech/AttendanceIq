@@ -528,7 +528,7 @@ if not os.path.exists("data/attendance.csv"):
     with st.spinner("Setting up data for first run — this takes about 15 seconds..."):
         try:
             import generate_data as _gd
-            _gd.generate_all()
+            _gd.generate()
         except Exception as _e:
             st.error(f"Data generation failed: {_e}")
             st.stop()
