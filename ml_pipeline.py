@@ -226,32 +226,37 @@ def engineer_features(df: pd.DataFrame) -> Tuple[pd.DataFrame, List[str], dict]:
         year=("year","first"),
     ).reset_index()
 
-    feat["dept"]         = d.groupby("student_id")["department"].first().values
+    dept_map = d.groupby("student_id")["department"].first()
+    feat["dept"]         = feat["student_id"].map(dept_map)
     feat["overall_pct"]  = (feat["total_present"] / feat["total_classes"] * 100).round(2)
     feat["late_rate"]    = (feat["total_late"] / feat["total_classes"] * 100).round(2)
     feat["absence_rate"] = 100 - feat["overall_pct"]
 
-    # Semester split
-    sem = d.groupby(["student_id","semester"])["present"].mean().unstack(fill_value=0) * 100
+    # Semester split — reset_index so student_id is a column, not the index
+    sem = (d.groupby(["student_id","semester"])["present"].mean().unstack(fill_value=0) * 100).reset_index()
     for s_id, col_name in [(1,"sem1_pct"), (2,"sem2_pct")]:
         if s_id in sem.columns:
-            feat = feat.merge(sem[[s_id]].rename(columns={s_id: col_name}), on="student_id", how="left")
+            feat = feat.merge(sem[["student_id", s_id]].rename(columns={s_id: col_name}),
+                              on="student_id", how="left")
         else:
             feat[col_name] = feat["overall_pct"]
     feat["sem_trend"] = feat["sem2_pct"] - feat["sem1_pct"]
 
-    # Day effects
-    dow = d.groupby(["student_id","day_of_week"])["present"].mean().unstack(fill_value=0) * 100
+    # Day effects — reset_index so student_id is a column, not the index
+    dow = (d.groupby(["student_id","day_of_week"])["present"].mean().unstack(fill_value=0) * 100).reset_index()
     for day, col in [("Monday","pct_monday"), ("Friday","pct_friday")]:
         if day in dow.columns:
-            feat = feat.merge(dow[[day]].rename(columns={day: col}), on="student_id", how="left")
+            feat = feat.merge(dow[["student_id", day]].rename(columns={day: col}),
+                              on="student_id", how="left")
         else:
             feat[col] = feat["overall_pct"]
 
-    # Method ratios
-    mth = d.groupby(["student_id","method"]).size().unstack(fill_value=0)
-    for m in ["Face","Manual","RFID"]:
-        feat[f"n_{m.lower()}"] = mth[m].values if m in mth.columns else 0
+    # Method ratios — reset_index so student_id is a column, not the index
+    mth = d.groupby(["student_id","method"]).size().unstack(fill_value=0).reset_index()
+    feat = feat.merge(mth, on="student_id", how="left")
+    feat["n_face"]   = feat["Face"].fillna(0)   if "Face"   in feat.columns else 0
+    feat["n_manual"] = feat["Manual"].fillna(0) if "Manual" in feat.columns else 0
+    feat["n_rfid"]   = feat["RFID"].fillna(0)   if "RFID"   in feat.columns else 0
     feat["face_ratio"] = (feat["n_face"] / (feat["total_classes"] + 1) * 100).round(2)
 
     # Encode
