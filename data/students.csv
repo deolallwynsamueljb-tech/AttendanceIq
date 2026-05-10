@@ -1,51 +1,21 @@
-id,name,dept,year,email,phone,hostel,category,pattern,gpa_base,scholarship,study_style,attendance_pct,ahi
-STU001,Deol Allwyn Samuel J B,VLSI,4,deol@cit.ac.in,9876543200,False,General,consistent,9.1,True,consistent,91.1,83.7
-STU002,Harish Venkat T,VLSI,4,harish@cit.ac.in,9876543201,True,OBC,good,8.5,False,exam_warrior,85.3,74.7
-STU003,Rahul Krishnan V,VLSI,4,rahul@cit.ac.in,9876543202,False,General,excellent,9.6,True,consistent,94.0,86.8
-STU004,Divya Ramesh T,VLSI,3,divya@cit.ac.in,9876543203,True,SC,at_risk,6.1,False,panicker,57.9,53.4
-STU005,Kavitha Mohan S,VLSI,3,kavitha@cit.ac.in,9876543204,False,OBC,good,8.2,False,consistent,84.4,73.1
-STU006,Suresh Kumar N,VLSI,2,suresh@cit.ac.in,9876543205,True,OBC,critical,5.3,False,panicker,49.3,46.7
-STU007,Annamalai P,VLSI,2,annamalai@cit.ac.in,9876543206,True,SC,critical,4.7,False,dropout_risk,38.5,39.8
-STU008,Revathi J,VLSI,1,revathi@cit.ac.in,9876543207,False,General,good,8.0,False,consistent,83.1,71.6
-STU009,Aravind Kumar R,CSE,3,aravind@cit.ac.in,9876543208,True,General,moderate,7.7,False,moderate,71.8,65.7
-STU010,Sowmiya Devi P,CSE,3,sowmiya@cit.ac.in,9876543209,False,OBC,consistent,8.9,True,consistent,83.5,79.4
-STU011,Vishnu Prasad K,CSE,1,vishnu@cit.ac.in,9876543210,True,ST,critical,4.9,False,dropout_risk,38.4,40.4
-STU012,Meera Anand S,CSE,2,meera@cit.ac.in,9876543211,False,OBC,at_risk,6.6,False,panicker,64.1,58.0
-STU013,Naveen Chandran K,CSE,4,naveen@cit.ac.in,9876543212,True,General,moderate,7.3,False,moderate,70.6,63.4
-STU014,Balamurugan N,CSE,2,bala@cit.ac.in,9876543213,True,SC,critical,4.4,False,dropout_risk,37.9,38.5
-STU015,Saranya Prakash V,CSE,1,saranya@cit.ac.in,9876543214,False,OBC,good,7.9,False,consistent,81.5,70.6
-STU016,Arjun Selvam T,CSE,3,arjun@cit.ac.in,9876543215,True,OBC,moderate,7.4,False,moderate,70.2,63.8
-STU017,Preethi Murali S,CSE,2,preethi@cit.ac.in,9876543216,False,General,consistent,9.0,True,consistent,89.1,82.4
-STU018,Dinesh Babu K,CSE,4,dinesh@cit.ac.in,9876543217,True,SC,at_risk,5.7,False,panicker,52.0,49.5
-STU019,Priya Nair S,ECE,2,priya@cit.ac.in,9876543218,False,General,good,8.4,False,consistent,85.5,74.5
-STU020,Deepika Sundaram,ECE,2,deepika@cit.ac.in,9876543219,True,OBC,moderate,7.2,False,moderate,67.6,61.8
-STU021,Sanjay Murugan P,ECE,1,sanjay@cit.ac.in,9876543220,True,SC,critical,4.5,False,dropout_risk,37.2,38.5
-STU022,Gopal Krishnan M,ECE,2,gopal@cit.ac.in,9876543221,True,OBC,at_risk,5.9,False,panicker,60.9,54.2
-STU023,Renuka Devi R,ECE,3,renuka@cit.ac.in,9876543222,False,General,consistent,8.8,True,consistent,89.0,81.4
-STU024,Senthil Kumar A,ECE,4,senthil@cit.ac.in,9876543223,True,SC,critical,5.2,False,dropout_risk,46.4,45.1
-STU025,Nithya Priya V,ECE,3,nithya@cit.ac.in,9876543224,False,OBC,good,8.1,False,consistent,79.4,70.5
-STU026,Mahendran T,ECE,1,mahendran@cit.ac.in,9876543225,True,OBC,at_risk,6.8,False,moderate,66.8,60.1
-STU027,Jayashree L,ECE,2,jayashree@cit.ac.in,9876543226,False,General,excellent,9.4,True,consistent,92.7,85.4
-STU028,Karthik Rajan M,MECH,4,karthik@cit.ac.in,9876543227,True,OBC,at_risk,5.8,False,panicker,59.8,53.2
-STU029,Anitha Selvam R,MECH,3,anitha@cit.ac.in,9876543228,False,General,good,7.9,False,consistent,81.7,70.7
-STU030,Vijay Shankar R,MECH,4,vijay@cit.ac.in,9876543229,True,SC,critical,5.4,False,dropout_risk,47.1,46.1
-STU031,Surya Prakash K,MECH,2,surya@cit.ac.in,9876543230,True,OBC,moderate,7.6,False,moderate,75.1,66.8
-STU032,Mohan Das T,MECH,3,mohan@cit.ac.in,9876543231,True,SC,critical,4.8,False,dropout_risk,38.7,40.2
-STU033,Tamilarasan S,MECH,1,tamilarasan@cit.ac.in,9876543232,True,OBC,moderate,6.9,False,moderate,70.5,61.9
-STU034,Vignesh Kumar M,MECH,2,vignesh@cit.ac.in,9876543233,False,General,good,8.6,False,consistent,85.0,74.9
-STU035,Pavithra R,MECH,1,pavithra@cit.ac.in,9876543234,False,OBC,good,8.3,False,consistent,83.1,72.8
-STU036,Kalai Selvi P,IT,3,kalai@cit.ac.in,9876543235,False,OBC,consistent,9.0,True,consistent,86.9,81.4
-STU037,Manoj Kumar R,IT,2,manoj@cit.ac.in,9876543236,True,General,at_risk,6.7,False,moderate,69.8,61.1
-STU038,Sneha Lakshmi T,IT,3,sneha@cit.ac.in,9876543237,False,General,excellent,9.7,True,consistent,91.4,86.0
-STU039,Bharath Kumar S,IT,4,bharath@cit.ac.in,9876543238,True,SC,critical,5.1,False,dropout_risk,47.3,45.2
-STU040,Keerthana V,IT,2,keerthana@cit.ac.in,9876543239,False,OBC,moderate,7.6,False,moderate,77.4,67.6
-STU041,Abishek Mohan N,IT,1,abishek@cit.ac.in,9876543240,True,OBC,at_risk,6.3,False,panicker,62.1,56.0
-STU042,Ramya Priya K,IT,4,ramya@cit.ac.in,9876543241,False,General,good,8.6,False,consistent,88.1,76.3
-STU043,Sugumar T,IT,3,sugumar@cit.ac.in,9876543242,True,SC,critical,4.6,False,dropout_risk,39.7,40.0
-STU044,Nandini Krishnan R,AIDS,2,nandini@cit.ac.in,9876543243,False,General,excellent,9.3,True,consistent,91.8,84.6
-STU045,Aakash Sundar V,AIDS,3,aakash@cit.ac.in,9876543244,True,OBC,moderate,7.5,False,moderate,72.6,65.1
-STU046,Pooja Venkat S,AIDS,2,pooja@cit.ac.in,9876543245,False,General,consistent,8.9,True,consistent,88.6,81.7
-STU047,Siva Kumar M,AIDS,4,siva@cit.ac.in,9876543246,True,SC,at_risk,5.8,False,panicker,52.7,50.2
-STU048,Dharani Devi T,AIDS,3,dharani@cit.ac.in,9876543247,False,OBC,good,8.1,False,consistent,79.8,70.6
-STU049,Balaji Raj N,AIDS,1,balaji@cit.ac.in,9876543248,True,OBC,at_risk,6.6,False,moderate,63.8,57.9
-STU050,Ishwarya Lakshmi P,AIDS,2,ishwarya@cit.ac.in,9876543249,False,General,consistent,9.2,True,consistent,85.9,81.6
+student_id,name,department,year,hostel
+CIT2024001,Deol Allwyn Samuel J B,VLSI,3,True
+CIT2024002,Priya Sharma,CSE,2,False
+CIT2024003,Arjun Mehta,ECE,3,True
+CIT2024004,Kavya Reddy,IT,2,False
+CIT2024005,Rohit Verma,MECH,3,True
+CIT2024006,Sneha Pillai,CIVIL,2,False
+CIT2024007,Aditya Kumar,CSE,3,True
+CIT2024008,Meera Nair,VLSI,2,False
+CIT2024009,Rahul Singh,ECE,3,True
+CIT2024010,Pooja Iyer,IT,2,False
+CIT2024011,Karthik Rajan,MECH,3,True
+CIT2024012,Divya Krishnan,CIVIL,2,False
+CIT2024013,Vikram Patel,CSE,3,True
+CIT2024014,Ananya Bose,VLSI,2,False
+CIT2024015,Suresh Babu,ECE,3,True
+CIT2024016,Lakshmi Devi,IT,2,False
+CIT2024017,Nikhil Joshi,MECH,3,True
+CIT2024018,Ranjini Murugan,CIVIL,2,False
+CIT2024019,Ashwin Chandran,CSE,3,True
+CIT2024020,Harini Venkatesh,VLSI,2,False
