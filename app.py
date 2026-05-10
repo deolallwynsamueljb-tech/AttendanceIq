@@ -474,15 +474,23 @@ def load_all():
     hrly  = hourly_pattern(df)
     risk  = at_risk_students(df)
     strk  = streak_analysis(df)
-    fcast = forecast_attendance(df)
-    anom  = anomaly_detection(df)
     whm   = weekly_heatmap_data(df)
     mth   = monthly_trend(df)
     sem_c = semester_comparison(df)
     bench = department_benchmark(df)
     eng   = compute_engagement_scores(df)
     return (df, stus, summ, s_rpt, sub_r, d_rpt, trend, hrly,
-            risk, strk, fcast, anom, whm, mth, sem_c, bench, eng)
+            risk, strk, whm, mth, sem_c, bench, eng)
+
+@st.cache_data(ttl=300)
+def load_anomalies():
+    df = load_attendance()
+    return anomaly_detection(df)
+
+@st.cache_data(ttl=300)
+def load_forecast():
+    df = load_attendance()
+    return forecast_attendance(df)
 
 
 @st.cache_data(ttl=300)
@@ -519,8 +527,10 @@ def load_alerts():
     df_att    = load_attendance()
     df_grades = load_grades()
     df_leaves = load_medical_leaves()
-    df_feat, FEATURES, _ = engineer_features(df_att)
-    anom = anomaly_detection(df_att)
+    try:
+        anom = load_anomalies()
+    except Exception:
+        anom = pd.DataFrame()
     return generate_smart_alerts(df_att, df_leaves, anom)
 
 
@@ -537,7 +547,7 @@ if not os.path.exists("data/attendance.csv"):
 
 try:
     (df, students, summary, stu_rpt, sub_rpt, dept_rpt, trend, hrly,
-     risk_stu, streaks, forecast, anomalies, whm,
+     risk_stu, streaks, whm,
      mth_data, sem_data, bench_data, eng_data) = load_all()
 
     df_grades, df_leaves, df_tchr = load_extra()
@@ -545,10 +555,12 @@ except Exception as e:
     st.error(f"**Setup failed** — {e}")
     st.stop()
 
-# ML models are loaded lazily (only on ML Engine / Reports pages)
+# Heavy computations are loaded lazily (only on their respective pages)
 ml_results, ml_scaler, ml_feat, ml_best = {}, None, [], "N/A"
 best_m   = {"accuracy": "—", "f1": "—", "auc": "—", "model": None, "fi": {}, "cv_f1_mean": 0, "cv_f1_std": 0}
 n_models = 0
+anomalies = pd.DataFrame()
+forecast  = pd.DataFrame()
 
 
 # ── SIDEBAR ───────────────────────────────────────────────────────────────────
@@ -651,7 +663,8 @@ if "COMMAND" in page:
         "below 75% threshold", WARN)
     kpi(c[4], "ML Accuracy", f"{best_m['accuracy']}",
         f"F1 {best_m['f1']} · AUC {best_m['auc']}", PINK)
-    kpi(c[5], "Anomalies", f"{len(anomalies[anomalies['anomaly']])}",
+    _anom_count = f"{len(anomalies[anomalies['anomaly']])}" if not anomalies.empty and "anomaly" in anomalies.columns else "—"
+    kpi(c[5], "Anomalies", _anom_count,
         "dual-detector flagged", ORNG)
 
     # KPI row 2
@@ -1446,6 +1459,9 @@ elif "RISK" in page:
 # PAGE 6 — ANOMALY DETECTION
 # ══════════════════════════════════════════════════════════════════════════════
 elif "ANOMALY" in page:
+    if anomalies.empty:
+        with st.spinner("Running anomaly detection — takes ~20 s on first run…"):
+            anomalies = load_anomalies()
     sec("DUAL ANOMALY DETECTION ENGINE")
     st.markdown("""
     <div class="panel">
@@ -1531,6 +1547,9 @@ elif "ANOMALY" in page:
 # PAGE 7 — FORECAST
 # ══════════════════════════════════════════════════════════════════════════════
 elif "FORECAST" in page:
+    if forecast.empty:
+        with st.spinner("Generating forecast — takes ~10 s on first run…"):
+            forecast = load_forecast()
     sec("ATTENDANCE FORECAST ENGINE · NEXT 14 DAYS")
     st.markdown("""
     <div class="panel">
@@ -1627,7 +1646,7 @@ elif "REPORTS" in page:
         ("ML Models",        f"RF + GBM + LogReg + MLP + XGBoost + Stacking · SMOTE+Tomek balanced"),
         ("Best Model",       f"{ml_best} · Acc={best_m['accuracy']} · F1={best_m['f1']} · AUC={best_m['auc']}"),
         ("Features",         f"{len(ml_feat)} engineered features · temporal + behavioral + contextual"),
-        ("Anomaly Detect",   f"IsolationForest + LOF dual detection · {len(anomalies[anomalies['anomaly']])} flagged"),
+        ("Anomaly Detect",   f"IsolationForest + LOF dual detection · {len(anomalies[anomalies['anomaly']]) if not anomalies.empty and 'anomaly' in anomalies.columns else '—'} flagged"),
         ("Forecasting",      "Rolling avg + trend + seasonal · 14-day ahead · dynamic CI"),
         ("Grade Prediction", "RF Regressor · attendance → CGPA mapping · detention alert"),
         ("Clustering",       "K-Means (k=5) + PCA 2D · 5 behavioral segments"),
@@ -1652,7 +1671,7 @@ elif "REPORTS" in page:
         f"Overall attendance: {summary['attendance_pct']}% across {summary['total_days']} working days",
         f"{summary['face_recog_pct']}% captured via face recognition (avg confidence {summary['avg_confidence']}%)",
         f"{len(risk_stu)} students below 75% threshold — immediate action required",
-        f"{len(anomalies[anomalies['anomaly']])} anomalous patterns flagged by dual-detector",
+        f"{len(anomalies[anomalies['anomaly']]) if not anomalies.empty and 'anomaly' in anomalies.columns else '—'} anomalous patterns flagged by dual-detector",
         f"Best ML: {ml_best} · F1={best_m['f1']} · AUC={best_m['auc']}",
         f"Monday/Friday show 7–12% lower attendance than midweek sessions",
         f"Morning sessions (08–10h) have highest attendance rates",
