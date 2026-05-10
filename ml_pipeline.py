@@ -536,16 +536,16 @@ def _max_consecutive_absent(status_series: pd.Series) -> int:
 # 5. ENSEMBLE TRAINING: RF + GBM + LogReg + XGBoost + MLP + Stacking
 # ══════════════════════════════════════════════════════════════════════════════
 
-def train_absence_predictor_v2(df: pd.DataFrame):
+def train_absence_predictor_v2(df: pd.DataFrame, fast_mode: bool = False):
     """
     Train the full absence-prediction ensemble.
     Returns (results_dict, scaler, feature_list, best_model_name, encoders).
     Compatible signature with app.py imports.
     """
-    return train_ensemble_v3(df)
+    return train_ensemble_v3(df, fast_mode=fast_mode)
 
 
-def train_ensemble_v3(df: pd.DataFrame):
+def train_ensemble_v3(df: pd.DataFrame, fast_mode: bool = False):
     """
     Full 5-model ensemble with stacking meta-learner.
     Trained with SMOTE balancing and 5-fold cross-validation.
@@ -577,39 +577,51 @@ def train_ensemble_v3(df: pd.DataFrame):
 
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
 
-    # ── Base models ────────────────────────────────────────────────────────────
-    models_def = {
-        "Random Forest": RandomForestClassifier(
-            n_estimators=350, max_depth=12, min_samples_leaf=2,
-            max_features="sqrt", class_weight="balanced",
-            oob_score=True, random_state=RANDOM_STATE, n_jobs=-1,
-        ),
-        "Gradient Boost": GradientBoostingClassifier(
-            n_estimators=250, learning_rate=0.07, max_depth=5,
-            subsample=0.85, min_samples_leaf=3,
-            random_state=RANDOM_STATE,
-        ),
-        "Logistic Reg": LogisticRegression(
-            C=1.2, class_weight="balanced",
-            max_iter=1200, random_state=RANDOM_STATE,
-        ),
-        "Neural Network": MLPClassifier(
-            hidden_layer_sizes=(256, 128, 64),
-            activation="relu", solver="adam",
-            alpha=0.001, learning_rate="adaptive",
-            max_iter=300, random_state=RANDOM_STATE,
-            early_stopping=True, validation_fraction=0.1,
-        ),
-    }
-
-    if HAS_XGB:
-        models_def["XGBoost"] = xgb.XGBClassifier(
-            n_estimators=300, learning_rate=0.08, max_depth=6,
-            subsample=0.85, colsample_bytree=0.85,
-            use_label_encoder=False, eval_metric="logloss",
-            random_state=RANDOM_STATE, n_jobs=-1,
-        )
-
+   # ── Base models ────────────────────────────────────────────────────────────
+    if fast_mode:
+        print("  [FAST MODE] Using lightweight models for cloud deployment")
+        models_def = {
+            "Random Forest": RandomForestClassifier(
+                n_estimators=50, max_depth=8, min_samples_leaf=4,
+                max_features="sqrt", class_weight="balanced",
+                random_state=RANDOM_STATE, n_jobs=-1,
+            ),
+            "Logistic Reg": LogisticRegression(
+                C=1.2, class_weight="balanced",
+                max_iter=500, random_state=RANDOM_STATE,
+            ),
+        }
+    else:
+        models_def = {
+            "Random Forest": RandomForestClassifier(
+                n_estimators=350, max_depth=12, min_samples_leaf=2,
+                max_features="sqrt", class_weight="balanced",
+                oob_score=True, random_state=RANDOM_STATE, n_jobs=-1,
+            ),
+            "Gradient Boost": GradientBoostingClassifier(
+                n_estimators=250, learning_rate=0.07, max_depth=5,
+                subsample=0.85, min_samples_leaf=3,
+                random_state=RANDOM_STATE,
+            ),
+            "Logistic Reg": LogisticRegression(
+                C=1.2, class_weight="balanced",
+                max_iter=1200, random_state=RANDOM_STATE,
+            ),
+            "Neural Network": MLPClassifier(
+                hidden_layer_sizes=(256, 128, 64),
+                activation="relu", solver="adam",
+                alpha=0.001, learning_rate="adaptive",
+                max_iter=300, random_state=RANDOM_STATE,
+                early_stopping=True, validation_fraction=0.1,
+            ),
+        }
+        if HAS_XGB:
+            models_def["XGBoost"] = xgb.XGBClassifier(
+                n_estimators=300, learning_rate=0.08, max_depth=6,
+                subsample=0.85, colsample_bytree=0.85,
+                use_label_encoder=False, eval_metric="logloss",
+                random_state=RANDOM_STATE, n_jobs=-1,
+            )
     results = {}
     for name, mdl in models_def.items():
         t0 = time.time()
@@ -651,11 +663,50 @@ def train_ensemble_v3(df: pd.DataFrame):
               f"{oob_txt}  [{elapsed:.1f}s]")
 
     # ── Stacking ensemble ──────────────────────────────────────────────────────
-    stk_estimators = [
-        ("rf",  results["Random Forest"]["model"]),
-        ("gb",  results["Gradient Boost"]["model"]),
-        ("lr",  results["Logistic Reg"]["model"]),
-    ]
+    # ── Stacking ensemble (skipped in fast mode) ───────────────────────────────
+    if not fast_mode:
+        stk_estimators = [
+            ("rf",  results["Random Forest"]["model"]),
+            ("gb",  results["Gradient Boost"]["model"]),
+            ("lr",  results["Logistic Reg"]["model"]),
+        ]
+        if "XGBoost" in results:
+            stk_estimators.append(("xgb", results["XGBoost"]["model"]))
+
+        stacking = StackingClassifier(
+            estimators=stk_estimators,
+            final_estimator=LogisticRegression(C=1.0, max_iter=800, random_state=RANDOM_STATE),
+            cv=3, n_jobs=-1,
+        )
+        t0 = time.time()
+        stacking.fit(X_tr_sc, y_tr_b)
+        y_pred_stk = stacking.predict(X_te_sc)
+        y_prob_stk = stacking.predict_proba(X_te_sc)[:, 1]
+        cv_f1_stk  = cross_val_score(stacking, X_tr_sc, y_tr_b, cv=cv, scoring="f1", n_jobs=-1)
+        elapsed    = time.time() - t0
+
+        results["Stacking Ensemble"] = {
+            "model":       stacking,
+            "accuracy":    round(accuracy_score(y_te, y_pred_stk), 4),
+            "f1":          round(f1_score(y_te, y_pred_stk, zero_division=0), 4),
+            "precision":   round(precision_score(y_te, y_pred_stk, zero_division=0), 4),
+            "recall":      round(recall_score(y_te, y_pred_stk, zero_division=0), 4),
+            "auc":         round(roc_auc_score(y_te, y_prob_stk), 4),
+            "cv_f1_mean":  round(cv_f1_stk.mean(), 4),
+            "cv_f1_std":   round(cv_f1_stk.std(),  4),
+            "cv_acc_mean": round(cv_f1_stk.mean(), 4),
+            "cv_acc_std":  round(cv_f1_stk.std(),  4),
+            "cm":          confusion_matrix(y_te, y_pred_stk).tolist(),
+            "fi":          pd.Series(dtype=float),
+            "y_test":      y_te,
+            "y_pred":      y_pred_stk,
+            "y_prob":      y_prob_stk,
+            "train_time":  round(elapsed, 2),
+        }
+        print(f"  {'Stacking Ensemble':20s}  Acc={results['Stacking Ensemble']['accuracy']:.4f}  "
+              f"F1={results['Stacking Ensemble']['f1']:.4f}  "
+              f"AUC={results['Stacking Ensemble']['auc']:.4f}  [{elapsed:.1f}s]")
+         
     if "XGBoost" in results:
         stk_estimators.append(("xgb", results["XGBoost"]["model"]))
 
