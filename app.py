@@ -611,12 +611,14 @@ elif "FACE" in page or "SCANNER" in page:
             matched = result["matched"]
             clr     = GREEN if matched else WARN
 
-            attempt_html = "".join([
-                f"<span style='font-family:Share Tech Mono,monospace;font-size:9px;"
-                f"color:{GREEN if a[\"confidence\"]>80 else WARN};margin-right:12px;'>"
-                f"#{a['attempt']}: {a['confidence']}%</span>"
-                for a in result["attempts"]
-            ])
+            attempt_html = ""
+            for a in result["attempts"]:
+                aclr = GREEN if a["confidence"] > 80 else WARN
+                attempt_html += (
+                    f"<span style='font-family:Share Tech Mono,monospace;font-size:9px;"
+                    f"color:{aclr};margin-right:12px;'>"
+                    f"#{a['attempt']}: {a['confidence']}%</span>"
+                )
             st.markdown(f"""
             <div class='kc' style='border-top-color:{clr};margin-top:10px;'>
               <div style='display:flex;justify-content:space-between;align-items:center;'>
