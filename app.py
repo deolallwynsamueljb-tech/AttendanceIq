@@ -541,13 +541,14 @@ try:
      mth_data, sem_data, bench_data, eng_data) = load_all()
 
     df_grades, df_leaves, df_tchr = load_extra()
-    ml_results, ml_scaler, ml_feat, ml_best, *_ = load_ml()
 except Exception as e:
     st.error(f"**Setup failed** — {e}")
     st.stop()
 
-best_m   = ml_results[ml_best]
-n_models = len(ml_results)
+# ML models are loaded lazily (only on ML Engine / Reports pages)
+ml_results, ml_scaler, ml_feat, ml_best = {}, None, [], "N/A"
+best_m   = {"accuracy": "—", "f1": "—", "auc": "—", "model": None, "fi": {}, "cv_f1_mean": 0, "cv_f1_std": 0}
+n_models = 0
 
 
 # ── SIDEBAR ───────────────────────────────────────────────────────────────────
@@ -990,6 +991,11 @@ elif "ANALYTICS" in page:
 # PAGE 3 — ML ENGINE
 # ══════════════════════════════════════════════════════════════════════════════
 elif "ML" in page:
+    if not ml_results:
+        with st.spinner("Training ML ensemble — takes 30–60 s on first run…"):
+            ml_results, ml_scaler, ml_feat, ml_best, *_ = load_ml()
+        best_m   = ml_results[ml_best]
+        n_models = len(ml_results)
     sec("MODEL PERFORMANCE MATRIX")
 
     cols = st.columns(min(len(ml_results), 5))
@@ -1596,6 +1602,11 @@ elif "FORECAST" in page:
 # PAGE 8 — REPORTS
 # ══════════════════════════════════════════════════════════════════════════════
 elif "REPORTS" in page:
+    if not ml_results:
+        with st.spinner("Loading ML data…"):
+            ml_results, ml_scaler, ml_feat, ml_best, *_ = load_ml()
+        best_m   = ml_results[ml_best]
+        n_models = len(ml_results)
     sec("PROJECT INTELLIGENCE BRIEF")
     st.markdown(f"""
     <div class="panel" style='border-left-color:#00d4ff;'>
