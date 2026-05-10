@@ -566,10 +566,13 @@ def train_ensemble_v3(df: pd.DataFrame, fast_mode: bool = False):
         X, y, test_size=0.20, random_state=RANDOM_STATE, stratify=y
     )
 
-    # SMOTE + Tomek links for cleaner decision boundary
-    smt     = SMOTETomek(random_state=RANDOM_STATE)
-    X_tr_b, y_tr_b = smt.fit_resample(X_tr, y_tr)
-    print(f"  SMOTE+Tomek : {len(X_tr)} -> {len(X_tr_b)} training samples")
+    if fast_mode:
+        X_tr_b, y_tr_b = X_tr, y_tr
+        print(f"  [FAST MODE] Skipping SMOTE — using {len(X_tr_b)} samples")
+    else:
+        smt = SMOTETomek(random_state=RANDOM_STATE)
+        X_tr_b, y_tr_b = smt.fit_resample(X_tr, y_tr)
+        print(f"  SMOTE+Tomek : {len(X_tr)} -> {len(X_tr_b)} training samples")
 
     scaler   = StandardScaler()
     X_tr_sc  = scaler.fit_transform(X_tr_b)

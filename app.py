@@ -494,7 +494,6 @@ def load_extra():
 
 
 @st.cache_resource
-@st.cache_resource
 def load_ml():
     df = load_attendance()
     # Use faster training on cloud (no SMOTE, fewer models)
