@@ -494,10 +494,13 @@ def load_extra():
 
 
 @st.cache_resource
+@st.cache_resource
 def load_ml():
     df = load_attendance()
-    return train_absence_predictor_v2(df)
-
+    # Use faster training on cloud (no SMOTE, fewer models)
+    import os
+    is_cloud = not os.path.exists("/Users") and not os.path.exists("C:/Users")
+    return train_absence_predictor_v2(df, fast_mode=True)
 
 @st.cache_data(ttl=300)
 def load_grade_intel():
