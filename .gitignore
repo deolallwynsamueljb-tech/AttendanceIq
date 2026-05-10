@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.pkl
+*.pth
+.claude/
+.devcontainer/
+models/

@@ -1,0 +1,20 @@
+teacher_id,name,department,designation,email,engagement_score
+TCH001,Dr. Ramachandran M,VLSI,Professor,ramachandran@cit.ac.in,0.95
+TCH002,Dr. Kumari S,VLSI,Associate Professor,kumari@cit.ac.in,0.9
+TCH003,Prof. Selvakumar T,VLSI,Assistant Professor,selvakumar@cit.ac.in,0.78
+TCH004,Dr. Krishnamurthy P,CSE,Professor,krishnamurthy@cit.ac.in,0.92
+TCH005,Dr. Anandhi V,CSE,Associate Professor,anandhi@cit.ac.in,0.88
+TCH006,Prof. Ganesh R,CSE,Assistant Professor,ganesh@cit.ac.in,0.72
+TCH007,Prof. Balaji N,CSE,Assistant Professor,balaji@cit.ac.in,0.65
+TCH008,Dr. Meenakshi L,ECE,Professor,meenakshi@cit.ac.in,0.91
+TCH009,Dr. Prakash K,ECE,Associate Professor,prakash@cit.ac.in,0.85
+TCH010,Prof. Kavitha R,ECE,Assistant Professor,kavitha@cit.ac.in,0.7
+TCH011,Dr. Subramaniam T,MECH,Professor,subramaniam@cit.ac.in,0.89
+TCH012,Dr. Rajkumar S,MECH,Associate Professor,rajkumar@cit.ac.in,0.82
+TCH013,Prof. Chandrasekaran,MECH,Assistant Professor,chandrasekaran@cit.ac.in,0.68
+TCH014,Dr. Mythili P,IT,Professor,mythili@cit.ac.in,0.93
+TCH015,Prof. Senthilkumar A,IT,Associate Professor,senthilkumar@cit.ac.in,0.8
+TCH016,Prof. Priya N,IT,Assistant Professor,priya@cit.ac.in,0.74
+TCH017,Dr. Arumugam S,AIDS,Professor,arumugam@cit.ac.in,0.96
+TCH018,Dr. Saranya D,AIDS,Associate Professor,saranya@cit.ac.in,0.91
+TCH019,Prof. Vignesh K,AIDS,Assistant Professor,vignesh@cit.ac.in,0.75

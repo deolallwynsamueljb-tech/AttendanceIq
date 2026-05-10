@@ -31,5 +31,4 @@ os.environ["ATTENDANCEIQ_IS_CLOUD"] = str(IS_CLOUD)
 os.environ["ATTENDANCEIQ_FAST_MODE"] = str(IS_CLOUD)
 
 # ── Import and run main app ───────────────────────────────────────
-if __name__ == "__main__":
-    import app
+import app

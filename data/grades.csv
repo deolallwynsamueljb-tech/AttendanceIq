@@ -1,0 +1,958 @@
+student_id,student_name,department,year,subject,credits,difficulty,attendance_pct,eligible,internal_marks,external_marks,total_marks,grade,grade_point,semester,semester_idx
+STU001,Deol Allwyn Samuel J B,VLSI,4,VLSI Design,4,0.85,95.5,True,24.2,73.6,97.8,O,10,ODD,1
+STU001,Deol Allwyn Samuel J B,VLSI,4,Digital Systems,3,0.7,90.9,True,22.8,70.5,93.3,O,10,ODD,1
+STU001,Deol Allwyn Samuel J B,VLSI,4,Embedded Systems,4,0.8,90.3,True,22.8,69.1,91.9,O,10,ODD,1
+STU001,Deol Allwyn Samuel J B,VLSI,4,CMOS Technology,3,0.9,88.4,True,21.4,58.7,80.1,A+,9,ODD,1
+STU001,Deol Allwyn Samuel J B,VLSI,4,HDL Programming,4,0.75,93.5,True,22.1,72.8,94.9,O,10,ODD,1
+STU001,Deol Allwyn Samuel J B,VLSI,4,Analog Electronics,3,0.65,87.9,True,25.0,66.2,91.2,O,10,ODD,1
+STU002,Harish Venkat T,VLSI,4,VLSI Design,4,0.85,85.8,True,20.4,65.2,85.6,A+,9,ODD,1
+STU002,Harish Venkat T,VLSI,4,Digital Systems,3,0.7,87.7,True,24.4,68.6,93.0,O,10,ODD,1
+STU002,Harish Venkat T,VLSI,4,Embedded Systems,4,0.8,86.3,True,23.1,58.4,81.5,A+,9,ODD,1
+STU002,Harish Venkat T,VLSI,4,CMOS Technology,3,0.9,83.2,True,23.5,60.6,84.1,A+,9,ODD,1
+STU002,Harish Venkat T,VLSI,4,HDL Programming,4,0.75,86.2,True,20.5,67.6,88.1,A+,9,ODD,1
+STU002,Harish Venkat T,VLSI,4,Analog Electronics,3,0.65,82.7,True,22.6,66.9,89.5,A+,9,ODD,1
+STU003,Rahul Krishnan V,VLSI,4,VLSI Design,4,0.85,95.8,True,25.0,71.5,96.5,O,10,ODD,1
+STU003,Rahul Krishnan V,VLSI,4,Digital Systems,3,0.7,90.7,True,25.0,75.0,100.0,O,10,ODD,1
+STU003,Rahul Krishnan V,VLSI,4,Embedded Systems,4,0.8,96.3,True,25.0,75.0,100.0,O,10,ODD,1
+STU003,Rahul Krishnan V,VLSI,4,CMOS Technology,3,0.9,94.1,True,21.7,70.4,92.1,O,10,ODD,1
+STU003,Rahul Krishnan V,VLSI,4,HDL Programming,4,0.75,92.8,True,23.9,73.3,97.2,O,10,ODD,1
+STU003,Rahul Krishnan V,VLSI,4,Analog Electronics,3,0.65,94.6,True,25.0,72.7,97.7,O,10,ODD,1
+STU004,Divya Ramesh T,VLSI,3,VLSI Design,4,0.85,57.3,False,15.6,0.0,0.0,DETAINED,0,ODD,1
+STU004,Divya Ramesh T,VLSI,3,Digital Systems,3,0.7,56.6,False,13.3,0.0,0.0,DETAINED,0,ODD,1
+STU004,Divya Ramesh T,VLSI,3,Embedded Systems,4,0.8,60.3,False,13.3,0.0,0.0,DETAINED,0,ODD,1
+STU004,Divya Ramesh T,VLSI,3,CMOS Technology,3,0.9,59.7,False,11.9,0.0,0.0,DETAINED,0,ODD,1
+STU004,Divya Ramesh T,VLSI,3,HDL Programming,4,0.75,55.0,False,17.2,0.0,0.0,DETAINED,0,ODD,1
+STU004,Divya Ramesh T,VLSI,3,Analog Electronics,3,0.65,58.2,False,15.8,0.0,0.0,DETAINED,0,ODD,1
+STU005,Kavitha Mohan S,VLSI,3,VLSI Design,4,0.85,87.9,True,21.4,57.4,78.8,A,8,ODD,1
+STU005,Kavitha Mohan S,VLSI,3,Digital Systems,3,0.7,80.8,True,20.4,56.7,77.1,A,8,ODD,1
+STU005,Kavitha Mohan S,VLSI,3,Embedded Systems,4,0.8,87.3,True,19.2,58.5,77.7,A,8,ODD,1
+STU005,Kavitha Mohan S,VLSI,3,CMOS Technology,3,0.9,83.3,True,16.8,60.7,77.5,A,8,ODD,1
+STU005,Kavitha Mohan S,VLSI,3,HDL Programming,4,0.75,86.9,True,18.0,61.4,79.4,A,8,ODD,1
+STU005,Kavitha Mohan S,VLSI,3,Analog Electronics,3,0.65,80.0,True,21.2,64.0,85.2,A+,9,ODD,1
+STU006,Suresh Kumar N,VLSI,2,VLSI Design,4,0.85,45.4,False,12.9,0.0,0.0,DETAINED,0,ODD,1
+STU006,Suresh Kumar N,VLSI,2,Digital Systems,3,0.7,44.2,False,14.9,0.0,0.0,DETAINED,0,ODD,1
+STU006,Suresh Kumar N,VLSI,2,Embedded Systems,4,0.8,55.0,False,12.4,0.0,0.0,DETAINED,0,ODD,1
+STU006,Suresh Kumar N,VLSI,2,CMOS Technology,3,0.9,52.1,False,15.5,0.0,0.0,DETAINED,0,ODD,1
+STU006,Suresh Kumar N,VLSI,2,HDL Programming,4,0.75,49.7,False,12.1,0.0,0.0,DETAINED,0,ODD,1
+STU006,Suresh Kumar N,VLSI,2,Analog Electronics,3,0.65,49.3,False,13.8,0.0,0.0,DETAINED,0,ODD,1
+STU007,Annamalai P,VLSI,2,VLSI Design,4,0.85,36.5,False,11.4,0.0,0.0,DETAINED,0,ODD,1
+STU007,Annamalai P,VLSI,2,Digital Systems,3,0.7,34.7,False,10.4,0.0,0.0,DETAINED,0,ODD,1
+STU007,Annamalai P,VLSI,2,Embedded Systems,4,0.8,37.6,False,9.4,0.0,0.0,DETAINED,0,ODD,1
+STU007,Annamalai P,VLSI,2,CMOS Technology,3,0.9,35.0,False,9.3,0.0,0.0,DETAINED,0,ODD,1
+STU007,Annamalai P,VLSI,2,HDL Programming,4,0.75,41.4,False,11.7,0.0,0.0,DETAINED,0,ODD,1
+STU007,Annamalai P,VLSI,2,Analog Electronics,3,0.65,45.6,False,13.5,0.0,0.0,DETAINED,0,ODD,1
+STU008,Revathi J,VLSI,1,VLSI Design,4,0.85,81.9,True,16.5,61.5,78.0,A,8,ODD,1
+STU008,Revathi J,VLSI,1,Digital Systems,3,0.7,81.7,True,23.6,61.0,84.6,A+,9,ODD,1
+STU008,Revathi J,VLSI,1,Embedded Systems,4,0.8,82.3,True,19.6,66.5,86.1,A+,9,ODD,1
+STU008,Revathi J,VLSI,1,CMOS Technology,3,0.9,85.4,True,20.4,55.6,76.0,A,8,ODD,1
+STU008,Revathi J,VLSI,1,HDL Programming,4,0.75,84.2,True,17.6,50.8,68.4,B+,7,ODD,1
+STU008,Revathi J,VLSI,1,Analog Electronics,3,0.65,82.9,True,18.8,62.2,81.0,A+,9,ODD,1
+STU009,Aravind Kumar R,CSE,3,Data Structures,4,0.8,66.7,False,19.3,0.0,0.0,DETAINED,0,ODD,1
+STU009,Aravind Kumar R,CSE,3,Operating Systems,3,0.72,74.6,False,19.6,0.0,0.0,DETAINED,0,ODD,1
+STU009,Aravind Kumar R,CSE,3,Machine Learning,4,0.88,61.8,False,22.6,0.0,0.0,DETAINED,0,ODD,1
+STU009,Aravind Kumar R,CSE,3,DBMS,3,0.65,77.0,True,16.2,63.9,80.1,A+,9,ODD,1
+STU009,Aravind Kumar R,CSE,3,Computer Networks,3,0.7,69.9,False,20.1,0.0,0.0,DETAINED,0,ODD,1
+STU009,Aravind Kumar R,CSE,3,Algorithms,4,0.85,76.5,True,18.5,65.6,84.1,A+,9,ODD,1
+STU009,Aravind Kumar R,CSE,3,Software Engineering,3,0.6,77.2,True,20.0,55.7,75.7,A,8,ODD,1
+STU010,Sowmiya Devi P,CSE,3,Data Structures,4,0.8,81.8,True,22.9,62.5,85.4,A+,9,ODD,1
+STU010,Sowmiya Devi P,CSE,3,Operating Systems,3,0.72,84.1,True,21.4,61.4,82.8,A+,9,ODD,1
+STU010,Sowmiya Devi P,CSE,3,Machine Learning,4,0.88,83.5,True,21.4,69.4,90.8,O,10,ODD,1
+STU010,Sowmiya Devi P,CSE,3,DBMS,3,0.65,82.8,True,21.9,69.6,91.5,O,10,ODD,1
+STU010,Sowmiya Devi P,CSE,3,Computer Networks,3,0.7,80.0,True,23.2,68.5,91.7,O,10,ODD,1
+STU010,Sowmiya Devi P,CSE,3,Algorithms,4,0.85,91.6,True,21.4,63.1,84.5,A+,9,ODD,1
+STU010,Sowmiya Devi P,CSE,3,Software Engineering,3,0.6,80.0,True,22.1,73.6,95.7,O,10,ODD,1
+STU011,Vishnu Prasad K,CSE,1,Data Structures,4,0.8,38.6,False,13.4,0.0,0.0,DETAINED,0,ODD,1
+STU011,Vishnu Prasad K,CSE,1,Operating Systems,3,0.72,35.1,False,10.2,0.0,0.0,DETAINED,0,ODD,1
+STU011,Vishnu Prasad K,CSE,1,Machine Learning,4,0.88,33.9,False,13.3,0.0,0.0,DETAINED,0,ODD,1
+STU011,Vishnu Prasad K,CSE,1,DBMS,3,0.65,43.8,False,13.3,0.0,0.0,DETAINED,0,ODD,1
+STU011,Vishnu Prasad K,CSE,1,Computer Networks,3,0.7,46.9,False,10.3,0.0,0.0,DETAINED,0,ODD,1
+STU011,Vishnu Prasad K,CSE,1,Algorithms,4,0.85,42.0,False,9.0,0.0,0.0,DETAINED,0,ODD,1
+STU011,Vishnu Prasad K,CSE,1,Software Engineering,3,0.6,27.5,False,11.5,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,Data Structures,4,0.8,64.8,False,15.0,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,Operating Systems,3,0.72,71.2,False,14.0,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,Machine Learning,4,0.88,58.1,False,15.5,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,DBMS,3,0.65,65.5,False,13.8,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,Computer Networks,3,0.7,62.3,False,16.7,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,Algorithms,4,0.85,64.8,False,14.8,0.0,0.0,DETAINED,0,ODD,1
+STU012,Meera Anand S,CSE,2,Software Engineering,3,0.6,62.4,False,14.9,0.0,0.0,DETAINED,0,ODD,1
+STU013,Naveen Chandran K,CSE,4,Data Structures,4,0.8,70.0,False,20.1,0.0,0.0,DETAINED,0,ODD,1
+STU013,Naveen Chandran K,CSE,4,Operating Systems,3,0.72,72.5,False,18.8,0.0,0.0,DETAINED,0,ODD,1
+STU013,Naveen Chandran K,CSE,4,Machine Learning,4,0.88,75.5,True,15.3,51.2,66.5,B+,7,ODD,1
+STU013,Naveen Chandran K,CSE,4,DBMS,3,0.65,66.9,False,17.8,0.0,0.0,DETAINED,0,ODD,1
+STU013,Naveen Chandran K,CSE,4,Computer Networks,3,0.7,73.6,False,18.6,0.0,0.0,DETAINED,0,ODD,1
+STU013,Naveen Chandran K,CSE,4,Algorithms,4,0.85,62.3,False,20.2,0.0,0.0,DETAINED,0,ODD,1
+STU013,Naveen Chandran K,CSE,4,Software Engineering,3,0.6,72.8,False,20.2,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,Data Structures,4,0.8,34.6,False,11.0,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,Operating Systems,3,0.72,44.0,False,9.2,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,Machine Learning,4,0.88,34.5,False,11.1,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,DBMS,3,0.65,30.1,False,10.6,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,Computer Networks,3,0.7,43.3,False,13.5,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,Algorithms,4,0.85,40.6,False,9.7,0.0,0.0,DETAINED,0,ODD,1
+STU014,Balamurugan N,CSE,2,Software Engineering,3,0.6,39.0,False,12.9,0.0,0.0,DETAINED,0,ODD,1
+STU015,Saranya Prakash V,CSE,1,Data Structures,4,0.8,79.9,True,19.6,63.1,82.7,A+,9,ODD,1
+STU015,Saranya Prakash V,CSE,1,Operating Systems,3,0.72,79.3,True,21.4,60.8,82.2,A+,9,ODD,1
+STU015,Saranya Prakash V,CSE,1,Machine Learning,4,0.88,81.3,True,20.6,59.5,80.1,A+,9,ODD,1
+STU015,Saranya Prakash V,CSE,1,DBMS,3,0.65,82.3,True,16.5,63.3,79.8,A,8,ODD,1
+STU015,Saranya Prakash V,CSE,1,Computer Networks,3,0.7,87.3,True,18.0,55.6,73.6,A,8,ODD,1
+STU015,Saranya Prakash V,CSE,1,Algorithms,4,0.85,83.6,True,19.3,56.5,75.8,A,8,ODD,1
+STU015,Saranya Prakash V,CSE,1,Software Engineering,3,0.6,77.1,True,19.0,68.2,87.2,A+,9,ODD,1
+STU016,Arjun Selvam T,CSE,3,Data Structures,4,0.8,62.8,False,19.8,0.0,0.0,DETAINED,0,ODD,1
+STU016,Arjun Selvam T,CSE,3,Operating Systems,3,0.72,70.9,False,19.9,0.0,0.0,DETAINED,0,ODD,1
+STU016,Arjun Selvam T,CSE,3,Machine Learning,4,0.88,72.1,False,16.8,0.0,0.0,DETAINED,0,ODD,1
+STU016,Arjun Selvam T,CSE,3,DBMS,3,0.65,74.4,False,19.2,0.0,0.0,DETAINED,0,ODD,1
+STU016,Arjun Selvam T,CSE,3,Computer Networks,3,0.7,65.0,False,17.8,0.0,0.0,DETAINED,0,ODD,1
+STU016,Arjun Selvam T,CSE,3,Algorithms,4,0.85,76.7,True,17.9,49.5,67.4,B+,7,ODD,1
+STU016,Arjun Selvam T,CSE,3,Software Engineering,3,0.6,68.6,False,20.7,0.0,0.0,DETAINED,0,ODD,1
+STU017,Preethi Murali S,CSE,2,Data Structures,4,0.8,88.7,True,25.0,75.0,100.0,O,10,ODD,1
+STU017,Preethi Murali S,CSE,2,Operating Systems,3,0.72,88.7,True,22.3,66.5,88.8,A+,9,ODD,1
+STU017,Preethi Murali S,CSE,2,Machine Learning,4,0.88,85.9,True,19.6,63.1,82.7,A+,9,ODD,1
+STU017,Preethi Murali S,CSE,2,DBMS,3,0.65,88.5,True,23.3,62.2,85.5,A+,9,ODD,1
+STU017,Preethi Murali S,CSE,2,Computer Networks,3,0.7,92.7,True,23.6,70.1,93.7,O,10,ODD,1
+STU017,Preethi Murali S,CSE,2,Algorithms,4,0.85,90.8,True,21.4,69.6,91.0,O,10,ODD,1
+STU017,Preethi Murali S,CSE,2,Software Engineering,3,0.6,87.9,True,23.8,64.3,88.1,A+,9,ODD,1
+STU018,Dinesh Babu K,CSE,4,Data Structures,4,0.8,56.0,False,13.1,0.0,0.0,DETAINED,0,ODD,1
+STU018,Dinesh Babu K,CSE,4,Operating Systems,3,0.72,50.4,False,12.4,0.0,0.0,DETAINED,0,ODD,1
+STU018,Dinesh Babu K,CSE,4,Machine Learning,4,0.88,52.3,False,14.0,0.0,0.0,DETAINED,0,ODD,1
+STU018,Dinesh Babu K,CSE,4,DBMS,3,0.65,53.1,False,11.6,0.0,0.0,DETAINED,0,ODD,1
+STU018,Dinesh Babu K,CSE,4,Computer Networks,3,0.7,46.0,False,11.5,0.0,0.0,DETAINED,0,ODD,1
+STU018,Dinesh Babu K,CSE,4,Algorithms,4,0.85,53.9,False,16.2,0.0,0.0,DETAINED,0,ODD,1
+STU018,Dinesh Babu K,CSE,4,Software Engineering,3,0.6,52.6,False,14.5,0.0,0.0,DETAINED,0,ODD,1
+STU019,Priya Nair S,ECE,2,Signal Processing,4,0.88,83.3,True,21.2,65.3,86.5,A+,9,ODD,1
+STU019,Priya Nair S,ECE,2,Microcontrollers,3,0.7,88.5,True,22.9,60.6,83.5,A+,9,ODD,1
+STU019,Priya Nair S,ECE,2,Communication Systems,4,0.82,87.5,True,18.0,70.5,88.5,A+,9,ODD,1
+STU019,Priya Nair S,ECE,2,VLSI Basics,3,0.75,87.0,True,23.0,63.3,86.3,A+,9,ODD,1
+STU019,Priya Nair S,ECE,2,Antenna Theory,3,0.78,84.7,True,20.2,60.6,80.8,A+,9,ODD,1
+STU019,Priya Nair S,ECE,2,Control Systems,4,0.85,79.0,True,19.9,55.7,75.6,A,8,ODD,1
+STU019,Priya Nair S,ECE,2,Digital Communication,3,0.72,88.7,True,20.7,62.8,83.5,A+,9,ODD,1
+STU020,Deepika Sundaram,ECE,2,Signal Processing,4,0.88,70.0,False,15.9,0.0,0.0,DETAINED,0,ODD,1
+STU020,Deepika Sundaram,ECE,2,Microcontrollers,3,0.7,70.4,False,19.5,0.0,0.0,DETAINED,0,ODD,1
+STU020,Deepika Sundaram,ECE,2,Communication Systems,4,0.82,67.6,False,19.4,0.0,0.0,DETAINED,0,ODD,1
+STU020,Deepika Sundaram,ECE,2,VLSI Basics,3,0.75,67.5,False,18.2,0.0,0.0,DETAINED,0,ODD,1
+STU020,Deepika Sundaram,ECE,2,Antenna Theory,3,0.78,63.0,False,19.9,0.0,0.0,DETAINED,0,ODD,1
+STU020,Deepika Sundaram,ECE,2,Control Systems,4,0.85,69.4,False,18.4,0.0,0.0,DETAINED,0,ODD,1
+STU020,Deepika Sundaram,ECE,2,Digital Communication,3,0.72,65.1,False,16.4,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,Signal Processing,4,0.88,34.5,False,9.7,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,Microcontrollers,3,0.7,43.9,False,10.9,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,Communication Systems,4,0.82,39.5,False,9.6,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,VLSI Basics,3,0.75,32.8,False,10.3,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,Antenna Theory,3,0.78,36.9,False,9.4,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,Control Systems,4,0.85,36.7,False,9.0,0.0,0.0,DETAINED,0,ODD,1
+STU021,Sanjay Murugan P,ECE,1,Digital Communication,3,0.72,35.9,False,13.1,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,Signal Processing,4,0.88,61.2,False,11.7,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,Microcontrollers,3,0.7,61.1,False,13.0,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,Communication Systems,4,0.82,64.0,False,14.5,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,VLSI Basics,3,0.75,62.0,False,15.9,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,Antenna Theory,3,0.78,59.7,False,14.8,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,Control Systems,4,0.85,58.6,False,11.9,0.0,0.0,DETAINED,0,ODD,1
+STU022,Gopal Krishnan M,ECE,2,Digital Communication,3,0.72,59.8,False,12.3,0.0,0.0,DETAINED,0,ODD,1
+STU023,Renuka Devi R,ECE,3,Signal Processing,4,0.88,88.6,True,23.2,66.0,89.2,A+,9,ODD,1
+STU023,Renuka Devi R,ECE,3,Microcontrollers,3,0.7,84.6,True,21.9,68.4,90.3,O,10,ODD,1
+STU023,Renuka Devi R,ECE,3,Communication Systems,4,0.82,91.5,True,22.7,69.6,92.3,O,10,ODD,1
+STU023,Renuka Devi R,ECE,3,VLSI Basics,3,0.75,87.2,True,22.4,69.8,92.2,O,10,ODD,1
+STU023,Renuka Devi R,ECE,3,Antenna Theory,3,0.78,89.5,True,23.3,69.9,93.2,O,10,ODD,1
+STU023,Renuka Devi R,ECE,3,Control Systems,4,0.85,93.6,True,19.1,63.6,82.7,A+,9,ODD,1
+STU023,Renuka Devi R,ECE,3,Digital Communication,3,0.72,87.2,True,23.5,68.6,92.1,O,10,ODD,1
+STU024,Senthil Kumar A,ECE,4,Signal Processing,4,0.88,42.1,False,12.5,0.0,0.0,DETAINED,0,ODD,1
+STU024,Senthil Kumar A,ECE,4,Microcontrollers,3,0.7,51.8,False,13.9,0.0,0.0,DETAINED,0,ODD,1
+STU024,Senthil Kumar A,ECE,4,Communication Systems,4,0.82,51.8,False,10.2,0.0,0.0,DETAINED,0,ODD,1
+STU024,Senthil Kumar A,ECE,4,VLSI Basics,3,0.75,42.1,False,12.1,0.0,0.0,DETAINED,0,ODD,1
+STU024,Senthil Kumar A,ECE,4,Antenna Theory,3,0.78,47.2,False,9.4,0.0,0.0,DETAINED,0,ODD,1
+STU024,Senthil Kumar A,ECE,4,Control Systems,4,0.85,43.7,False,11.0,0.0,0.0,DETAINED,0,ODD,1
+STU024,Senthil Kumar A,ECE,4,Digital Communication,3,0.72,46.8,False,12.3,0.0,0.0,DETAINED,0,ODD,1
+STU025,Nithya Priya V,ECE,3,Signal Processing,4,0.88,78.8,True,22.8,61.2,84.0,A+,9,ODD,1
+STU025,Nithya Priya V,ECE,3,Microcontrollers,3,0.7,77.6,True,21.2,62.1,83.3,A+,9,ODD,1
+STU025,Nithya Priya V,ECE,3,Communication Systems,4,0.82,81.5,True,19.5,53.7,73.2,A,8,ODD,1
+STU025,Nithya Priya V,ECE,3,VLSI Basics,3,0.75,79.7,True,22.3,62.2,84.5,A+,9,ODD,1
+STU025,Nithya Priya V,ECE,3,Antenna Theory,3,0.78,84.6,True,20.7,65.5,86.2,A+,9,ODD,1
+STU025,Nithya Priya V,ECE,3,Control Systems,4,0.85,71.9,False,18.4,0.0,0.0,DETAINED,0,ODD,1
+STU025,Nithya Priya V,ECE,3,Digital Communication,3,0.72,80.7,True,20.5,63.5,84.0,A+,9,ODD,1
+STU026,Mahendran T,ECE,1,Signal Processing,4,0.88,69.6,False,17.4,0.0,0.0,DETAINED,0,ODD,1
+STU026,Mahendran T,ECE,1,Microcontrollers,3,0.7,62.9,False,18.7,0.0,0.0,DETAINED,0,ODD,1
+STU026,Mahendran T,ECE,1,Communication Systems,4,0.82,71.8,False,20.8,0.0,0.0,DETAINED,0,ODD,1
+STU026,Mahendran T,ECE,1,VLSI Basics,3,0.75,65.4,False,17.4,0.0,0.0,DETAINED,0,ODD,1
+STU026,Mahendran T,ECE,1,Antenna Theory,3,0.78,64.6,False,16.5,0.0,0.0,DETAINED,0,ODD,1
+STU026,Mahendran T,ECE,1,Control Systems,4,0.85,67.3,False,18.8,0.0,0.0,DETAINED,0,ODD,1
+STU026,Mahendran T,ECE,1,Digital Communication,3,0.72,67.0,False,17.1,0.0,0.0,DETAINED,0,ODD,1
+STU027,Jayashree L,ECE,2,Signal Processing,4,0.88,96.7,True,22.6,69.5,92.1,O,10,ODD,1
+STU027,Jayashree L,ECE,2,Microcontrollers,3,0.7,93.1,True,23.1,72.4,95.5,O,10,ODD,1
+STU027,Jayashree L,ECE,2,Communication Systems,4,0.82,90.4,True,23.2,71.6,94.8,O,10,ODD,1
+STU027,Jayashree L,ECE,2,VLSI Basics,3,0.75,91.6,True,23.8,73.6,97.4,O,10,ODD,1
+STU027,Jayashree L,ECE,2,Antenna Theory,3,0.78,94.6,True,24.1,75.0,99.1,O,10,ODD,1
+STU027,Jayashree L,ECE,2,Control Systems,4,0.85,91.9,True,23.4,75.0,98.4,O,10,ODD,1
+STU027,Jayashree L,ECE,2,Digital Communication,3,0.72,90.7,True,21.9,68.4,90.3,O,10,ODD,1
+STU028,Karthik Rajan M,MECH,4,Thermodynamics,4,0.82,61.2,False,12.2,0.0,0.0,DETAINED,0,ODD,1
+STU028,Karthik Rajan M,MECH,4,Fluid Mechanics,4,0.8,58.7,False,14.2,0.0,0.0,DETAINED,0,ODD,1
+STU028,Karthik Rajan M,MECH,4,Machine Design,3,0.75,59.7,False,12.7,0.0,0.0,DETAINED,0,ODD,1
+STU028,Karthik Rajan M,MECH,4,Manufacturing,3,0.65,58.5,False,13.6,0.0,0.0,DETAINED,0,ODD,1
+STU028,Karthik Rajan M,MECH,4,CAD/CAM,4,0.7,61.8,False,12.4,0.0,0.0,DETAINED,0,ODD,1
+STU028,Karthik Rajan M,MECH,4,Strength of Materials,4,0.85,58.8,False,16.2,0.0,0.0,DETAINED,0,ODD,1
+STU029,Anitha Selvam R,MECH,3,Thermodynamics,4,0.82,80.1,True,21.8,60.0,81.8,A+,9,ODD,1
+STU029,Anitha Selvam R,MECH,3,Fluid Mechanics,4,0.8,80.5,True,19.2,50.8,70.0,A,8,ODD,1
+STU029,Anitha Selvam R,MECH,3,Machine Design,3,0.75,82.6,True,18.5,59.0,77.5,A,8,ODD,1
+STU029,Anitha Selvam R,MECH,3,Manufacturing,3,0.65,80.3,True,20.7,58.6,79.3,A,8,ODD,1
+STU029,Anitha Selvam R,MECH,3,CAD/CAM,4,0.7,76.9,True,19.7,54.7,74.4,A,8,ODD,1
+STU029,Anitha Selvam R,MECH,3,Strength of Materials,4,0.85,89.5,True,22.0,59.0,81.0,A+,9,ODD,1
+STU030,Vijay Shankar R,MECH,4,Thermodynamics,4,0.82,54.5,False,12.4,0.0,0.0,DETAINED,0,ODD,1
+STU030,Vijay Shankar R,MECH,4,Fluid Mechanics,4,0.8,32.1,False,15.0,0.0,0.0,DETAINED,0,ODD,1
+STU030,Vijay Shankar R,MECH,4,Machine Design,3,0.75,47.4,False,13.4,0.0,0.0,DETAINED,0,ODD,1
+STU030,Vijay Shankar R,MECH,4,Manufacturing,3,0.65,46.7,False,13.1,0.0,0.0,DETAINED,0,ODD,1
+STU030,Vijay Shankar R,MECH,4,CAD/CAM,4,0.7,53.2,False,13.9,0.0,0.0,DETAINED,0,ODD,1
+STU030,Vijay Shankar R,MECH,4,Strength of Materials,4,0.85,47.4,False,13.4,0.0,0.0,DETAINED,0,ODD,1
+STU031,Surya Prakash K,MECH,2,Thermodynamics,4,0.82,71.6,False,18.4,0.0,0.0,DETAINED,0,ODD,1
+STU031,Surya Prakash K,MECH,2,Fluid Mechanics,4,0.8,73.7,False,19.3,0.0,0.0,DETAINED,0,ODD,1
+STU031,Surya Prakash K,MECH,2,Machine Design,3,0.75,76.7,True,17.8,56.3,74.1,A,8,ODD,1
+STU031,Surya Prakash K,MECH,2,Manufacturing,3,0.65,73.0,False,18.0,0.0,0.0,DETAINED,0,ODD,1
+STU031,Surya Prakash K,MECH,2,CAD/CAM,4,0.7,80.5,True,17.7,54.4,72.1,A,8,ODD,1
+STU031,Surya Prakash K,MECH,2,Strength of Materials,4,0.85,75.7,True,20.0,52.3,72.3,A,8,ODD,1
+STU032,Mohan Das T,MECH,3,Thermodynamics,4,0.82,40.4,False,11.6,0.0,0.0,DETAINED,0,ODD,1
+STU032,Mohan Das T,MECH,3,Fluid Mechanics,4,0.8,33.3,False,9.9,0.0,0.0,DETAINED,0,ODD,1
+STU032,Mohan Das T,MECH,3,Machine Design,3,0.75,37.7,False,10.2,0.0,0.0,DETAINED,0,ODD,1
+STU032,Mohan Das T,MECH,3,Manufacturing,3,0.65,40.1,False,13.1,0.0,0.0,DETAINED,0,ODD,1
+STU032,Mohan Das T,MECH,3,CAD/CAM,4,0.7,38.0,False,15.4,0.0,0.0,DETAINED,0,ODD,1
+STU032,Mohan Das T,MECH,3,Strength of Materials,4,0.85,42.7,False,14.6,0.0,0.0,DETAINED,0,ODD,1
+STU033,Tamilarasan S,MECH,1,Thermodynamics,4,0.82,75.7,True,17.6,45.6,63.2,B+,7,ODD,1
+STU033,Tamilarasan S,MECH,1,Fluid Mechanics,4,0.8,71.5,False,18.1,0.0,0.0,DETAINED,0,ODD,1
+STU033,Tamilarasan S,MECH,1,Machine Design,3,0.75,67.8,False,17.1,0.0,0.0,DETAINED,0,ODD,1
+STU033,Tamilarasan S,MECH,1,Manufacturing,3,0.65,71.2,False,17.1,0.0,0.0,DETAINED,0,ODD,1
+STU033,Tamilarasan S,MECH,1,CAD/CAM,4,0.7,66.4,False,16.3,0.0,0.0,DETAINED,0,ODD,1
+STU033,Tamilarasan S,MECH,1,Strength of Materials,4,0.85,70.6,False,16.2,0.0,0.0,DETAINED,0,ODD,1
+STU034,Vignesh Kumar M,MECH,2,Thermodynamics,4,0.82,80.0,True,19.4,61.3,80.7,A+,9,ODD,1
+STU034,Vignesh Kumar M,MECH,2,Fluid Mechanics,4,0.8,85.5,True,24.5,63.6,88.1,A+,9,ODD,1
+STU034,Vignesh Kumar M,MECH,2,Machine Design,3,0.75,86.7,True,22.6,61.6,84.2,A+,9,ODD,1
+STU034,Vignesh Kumar M,MECH,2,Manufacturing,3,0.65,84.4,True,19.8,66.9,86.7,A+,9,ODD,1
+STU034,Vignesh Kumar M,MECH,2,CAD/CAM,4,0.7,86.7,True,21.1,69.4,90.5,O,10,ODD,1
+STU034,Vignesh Kumar M,MECH,2,Strength of Materials,4,0.85,87.2,True,20.6,64.1,84.7,A+,9,ODD,1
+STU035,Pavithra R,MECH,1,Thermodynamics,4,0.82,81.1,True,22.9,64.9,87.8,A+,9,ODD,1
+STU035,Pavithra R,MECH,1,Fluid Mechanics,4,0.8,79.6,True,20.6,63.1,83.7,A+,9,ODD,1
+STU035,Pavithra R,MECH,1,Machine Design,3,0.75,86.8,True,22.1,61.8,83.9,A+,9,ODD,1
+STU035,Pavithra R,MECH,1,Manufacturing,3,0.65,80.3,True,18.4,56.1,74.5,A,8,ODD,1
+STU035,Pavithra R,MECH,1,CAD/CAM,4,0.7,87.1,True,21.0,61.9,82.9,A+,9,ODD,1
+STU035,Pavithra R,MECH,1,Strength of Materials,4,0.85,83.9,True,22.2,67.1,89.3,A+,9,ODD,1
+STU036,Kalai Selvi P,IT,3,Web Technologies,3,0.62,89.6,True,23.8,71.3,95.1,O,10,ODD,1
+STU036,Kalai Selvi P,IT,3,Cloud Computing,4,0.72,86.1,True,25.0,60.3,85.3,A+,9,ODD,1
+STU036,Kalai Selvi P,IT,3,Cybersecurity,3,0.8,86.2,True,20.3,63.0,83.3,A+,9,ODD,1
+STU036,Kalai Selvi P,IT,3,Big Data Analytics,4,0.78,88.0,True,20.6,67.0,87.6,A+,9,ODD,1
+STU036,Kalai Selvi P,IT,3,IoT Systems,3,0.68,84.2,True,23.0,69.1,92.1,O,10,ODD,1
+STU036,Kalai Selvi P,IT,3,Mobile Development,3,0.65,87.2,True,23.5,69.5,93.0,O,10,ODD,1
+STU037,Manoj Kumar R,IT,2,Web Technologies,3,0.62,71.2,False,16.6,0.0,0.0,DETAINED,0,ODD,1
+STU037,Manoj Kumar R,IT,2,Cloud Computing,4,0.72,72.3,False,14.6,0.0,0.0,DETAINED,0,ODD,1
+STU037,Manoj Kumar R,IT,2,Cybersecurity,3,0.8,63.0,False,17.3,0.0,0.0,DETAINED,0,ODD,1
+STU037,Manoj Kumar R,IT,2,Big Data Analytics,4,0.78,72.9,False,15.4,0.0,0.0,DETAINED,0,ODD,1
+STU037,Manoj Kumar R,IT,2,IoT Systems,3,0.68,62.7,False,17.9,0.0,0.0,DETAINED,0,ODD,1
+STU037,Manoj Kumar R,IT,2,Mobile Development,3,0.65,75.3,True,17.2,39.7,56.9,B,6,ODD,1
+STU038,Sneha Lakshmi T,IT,3,Web Technologies,3,0.62,90.0,True,25.0,72.9,97.9,O,10,ODD,1
+STU038,Sneha Lakshmi T,IT,3,Cloud Computing,4,0.72,92.0,True,25.0,73.2,98.2,O,10,ODD,1
+STU038,Sneha Lakshmi T,IT,3,Cybersecurity,3,0.8,93.0,True,25.0,70.2,95.2,O,10,ODD,1
+STU038,Sneha Lakshmi T,IT,3,Big Data Analytics,4,0.78,90.4,True,23.8,71.5,95.3,O,10,ODD,1
+STU038,Sneha Lakshmi T,IT,3,IoT Systems,3,0.68,91.0,True,25.0,75.0,100.0,O,10,ODD,1
+STU038,Sneha Lakshmi T,IT,3,Mobile Development,3,0.65,92.4,True,24.4,75.0,99.4,O,10,ODD,1
+STU039,Bharath Kumar S,IT,4,Web Technologies,3,0.62,46.3,False,12.8,0.0,0.0,DETAINED,0,ODD,1
+STU039,Bharath Kumar S,IT,4,Cloud Computing,4,0.72,53.3,False,13.7,0.0,0.0,DETAINED,0,ODD,1
+STU039,Bharath Kumar S,IT,4,Cybersecurity,3,0.8,41.9,False,9.1,0.0,0.0,DETAINED,0,ODD,1
+STU039,Bharath Kumar S,IT,4,Big Data Analytics,4,0.78,42.9,False,10.4,0.0,0.0,DETAINED,0,ODD,1
+STU039,Bharath Kumar S,IT,4,IoT Systems,3,0.68,48.6,False,13.2,0.0,0.0,DETAINED,0,ODD,1
+STU039,Bharath Kumar S,IT,4,Mobile Development,3,0.65,52.1,False,12.2,0.0,0.0,DETAINED,0,ODD,1
+STU040,Keerthana V,IT,2,Web Technologies,3,0.62,80.6,True,18.3,57.4,75.7,A,8,ODD,1
+STU040,Keerthana V,IT,2,Cloud Computing,4,0.72,77.4,True,19.4,61.1,80.5,A+,9,ODD,1
+STU040,Keerthana V,IT,2,Cybersecurity,3,0.8,79.2,True,16.6,59.7,76.3,A,8,ODD,1
+STU040,Keerthana V,IT,2,Big Data Analytics,4,0.78,78.1,True,19.3,65.0,84.3,A+,9,ODD,1
+STU040,Keerthana V,IT,2,IoT Systems,3,0.68,76.7,True,19.4,63.4,82.8,A+,9,ODD,1
+STU040,Keerthana V,IT,2,Mobile Development,3,0.65,72.7,False,19.1,0.0,0.0,DETAINED,0,ODD,1
+STU041,Abishek Mohan N,IT,1,Web Technologies,3,0.62,67.6,False,16.1,0.0,0.0,DETAINED,0,ODD,1
+STU041,Abishek Mohan N,IT,1,Cloud Computing,4,0.72,56.2,False,15.8,0.0,0.0,DETAINED,0,ODD,1
+STU041,Abishek Mohan N,IT,1,Cybersecurity,3,0.8,63.6,False,17.3,0.0,0.0,DETAINED,0,ODD,1
+STU041,Abishek Mohan N,IT,1,Big Data Analytics,4,0.78,65.7,False,16.8,0.0,0.0,DETAINED,0,ODD,1
+STU041,Abishek Mohan N,IT,1,IoT Systems,3,0.68,64.6,False,17.3,0.0,0.0,DETAINED,0,ODD,1
+STU041,Abishek Mohan N,IT,1,Mobile Development,3,0.65,54.7,False,17.2,0.0,0.0,DETAINED,0,ODD,1
+STU042,Ramya Priya K,IT,4,Web Technologies,3,0.62,85.6,True,20.4,64.7,85.1,A+,9,ODD,1
+STU042,Ramya Priya K,IT,4,Cloud Computing,4,0.72,86.6,True,22.0,58.8,80.8,A+,9,ODD,1
+STU042,Ramya Priya K,IT,4,Cybersecurity,3,0.8,94.7,True,19.4,66.2,85.6,A+,9,ODD,1
+STU042,Ramya Priya K,IT,4,Big Data Analytics,4,0.78,88.4,True,20.5,61.4,81.9,A+,9,ODD,1
+STU042,Ramya Priya K,IT,4,IoT Systems,3,0.68,88.1,True,23.3,73.2,96.5,O,10,ODD,1
+STU042,Ramya Priya K,IT,4,Mobile Development,3,0.65,84.7,True,22.0,69.4,91.4,O,10,ODD,1
+STU043,Sugumar T,IT,3,Web Technologies,3,0.62,42.1,False,13.1,0.0,0.0,DETAINED,0,ODD,1
+STU043,Sugumar T,IT,3,Cloud Computing,4,0.72,39.2,False,11.5,0.0,0.0,DETAINED,0,ODD,1
+STU043,Sugumar T,IT,3,Cybersecurity,3,0.8,39.6,False,12.4,0.0,0.0,DETAINED,0,ODD,1
+STU043,Sugumar T,IT,3,Big Data Analytics,4,0.78,32.4,False,10.0,0.0,0.0,DETAINED,0,ODD,1
+STU043,Sugumar T,IT,3,IoT Systems,3,0.68,35.3,False,11.1,0.0,0.0,DETAINED,0,ODD,1
+STU043,Sugumar T,IT,3,Mobile Development,3,0.65,47.9,False,8.5,0.0,0.0,DETAINED,0,ODD,1
+STU044,Nandini Krishnan R,AIDS,2,Deep Learning,4,0.92,91.4,True,22.1,69.2,91.3,O,10,ODD,1
+STU044,Nandini Krishnan R,AIDS,2,Computer Vision,4,0.9,92.8,True,23.1,72.6,95.7,O,10,ODD,1
+STU044,Nandini Krishnan R,AIDS,2,Natural Language Processing,3,0.88,91.5,True,21.6,67.8,89.4,A+,9,ODD,1
+STU044,Nandini Krishnan R,AIDS,2,Robotics & Automation,3,0.85,90.5,True,22.9,64.6,87.5,A+,9,ODD,1
+STU044,Nandini Krishnan R,AIDS,2,Data Analytics,4,0.75,91.2,True,25.0,70.4,95.4,O,10,ODD,1
+STU044,Nandini Krishnan R,AIDS,2,Statistical Learning,3,0.82,93.1,True,21.0,60.9,81.9,A+,9,ODD,1
+STU045,Aakash Sundar V,AIDS,3,Deep Learning,4,0.92,68.2,False,18.9,0.0,0.0,DETAINED,0,ODD,1
+STU045,Aakash Sundar V,AIDS,3,Computer Vision,4,0.9,68.5,False,19.2,0.0,0.0,DETAINED,0,ODD,1
+STU045,Aakash Sundar V,AIDS,3,Natural Language Processing,3,0.88,71.1,False,17.4,0.0,0.0,DETAINED,0,ODD,1
+STU045,Aakash Sundar V,AIDS,3,Robotics & Automation,3,0.85,72.4,False,20.2,0.0,0.0,DETAINED,0,ODD,1
+STU045,Aakash Sundar V,AIDS,3,Data Analytics,4,0.75,77.0,True,16.3,63.4,79.7,A,8,ODD,1
+STU045,Aakash Sundar V,AIDS,3,Statistical Learning,3,0.82,77.6,True,18.8,49.9,68.7,B+,7,ODD,1
+STU046,Pooja Venkat S,AIDS,2,Deep Learning,4,0.92,88.4,True,20.7,68.1,88.8,A+,9,ODD,1
+STU046,Pooja Venkat S,AIDS,2,Computer Vision,4,0.9,89.9,True,20.1,62.6,82.7,A+,9,ODD,1
+STU046,Pooja Venkat S,AIDS,2,Natural Language Processing,3,0.88,91.2,True,21.4,66.4,87.8,A+,9,ODD,1
+STU046,Pooja Venkat S,AIDS,2,Robotics & Automation,3,0.85,84.1,True,22.9,66.3,89.2,A+,9,ODD,1
+STU046,Pooja Venkat S,AIDS,2,Data Analytics,4,0.75,89.9,True,19.8,71.3,91.1,O,10,ODD,1
+STU046,Pooja Venkat S,AIDS,2,Statistical Learning,3,0.82,88.5,True,22.5,61.0,83.5,A+,9,ODD,1
+STU047,Siva Kumar M,AIDS,4,Deep Learning,4,0.92,51.3,False,15.4,0.0,0.0,DETAINED,0,ODD,1
+STU047,Siva Kumar M,AIDS,4,Computer Vision,4,0.9,56.3,False,15.1,0.0,0.0,DETAINED,0,ODD,1
+STU047,Siva Kumar M,AIDS,4,Natural Language Processing,3,0.88,47.7,False,12.1,0.0,0.0,DETAINED,0,ODD,1
+STU047,Siva Kumar M,AIDS,4,Robotics & Automation,3,0.85,52.3,False,14.2,0.0,0.0,DETAINED,0,ODD,1
+STU047,Siva Kumar M,AIDS,4,Data Analytics,4,0.75,56.7,False,13.2,0.0,0.0,DETAINED,0,ODD,1
+STU047,Siva Kumar M,AIDS,4,Statistical Learning,3,0.82,52.4,False,12.1,0.0,0.0,DETAINED,0,ODD,1
+STU048,Dharani Devi T,AIDS,3,Deep Learning,4,0.92,79.9,True,20.8,61.4,82.2,A+,9,ODD,1
+STU048,Dharani Devi T,AIDS,3,Computer Vision,4,0.9,82.9,True,20.6,63.1,83.7,A+,9,ODD,1
+STU048,Dharani Devi T,AIDS,3,Natural Language Processing,3,0.88,78.9,True,20.8,55.1,75.9,A,8,ODD,1
+STU048,Dharani Devi T,AIDS,3,Robotics & Automation,3,0.85,77.2,True,19.7,60.0,79.7,A,8,ODD,1
+STU048,Dharani Devi T,AIDS,3,Data Analytics,4,0.75,75.2,True,21.4,56.2,77.6,A,8,ODD,1
+STU048,Dharani Devi T,AIDS,3,Statistical Learning,3,0.82,83.6,True,19.4,62.2,81.6,A+,9,ODD,1
+STU049,Balaji Raj N,AIDS,1,Deep Learning,4,0.92,60.3,False,15.7,0.0,0.0,DETAINED,0,ODD,1
+STU049,Balaji Raj N,AIDS,1,Computer Vision,4,0.9,68.7,False,14.6,0.0,0.0,DETAINED,0,ODD,1
+STU049,Balaji Raj N,AIDS,1,Natural Language Processing,3,0.88,65.9,False,15.9,0.0,0.0,DETAINED,0,ODD,1
+STU049,Balaji Raj N,AIDS,1,Robotics & Automation,3,0.85,62.1,False,17.3,0.0,0.0,DETAINED,0,ODD,1
+STU049,Balaji Raj N,AIDS,1,Data Analytics,4,0.75,65.0,False,12.3,0.0,0.0,DETAINED,0,ODD,1
+STU049,Balaji Raj N,AIDS,1,Statistical Learning,3,0.82,60.0,False,13.9,0.0,0.0,DETAINED,0,ODD,1
+STU050,Ishwarya Lakshmi P,AIDS,2,Deep Learning,4,0.92,88.3,True,22.2,70.8,93.0,O,10,ODD,1
+STU050,Ishwarya Lakshmi P,AIDS,2,Computer Vision,4,0.9,84.2,True,20.4,63.5,83.9,A+,9,ODD,1
+STU050,Ishwarya Lakshmi P,AIDS,2,Natural Language Processing,3,0.88,83.6,True,22.1,64.0,86.1,A+,9,ODD,1
+STU050,Ishwarya Lakshmi P,AIDS,2,Robotics & Automation,3,0.85,89.6,True,19.7,67.9,87.6,A+,9,ODD,1
+STU050,Ishwarya Lakshmi P,AIDS,2,Data Analytics,4,0.75,79.7,True,23.7,68.1,91.8,O,10,ODD,1
+STU050,Ishwarya Lakshmi P,AIDS,2,Statistical Learning,3,0.82,89.1,True,25.0,68.6,93.6,O,10,ODD,1
+STU001,Deol Allwyn Samuel J B,VLSI,4,VLSI Design,4,0.85,95.5,True,23.6,68.6,92.2,O,10,EVEN,2
+STU001,Deol Allwyn Samuel J B,VLSI,4,Digital Systems,3,0.7,90.9,True,23.5,70.5,94.0,O,10,EVEN,2
+STU001,Deol Allwyn Samuel J B,VLSI,4,Embedded Systems,4,0.8,90.3,True,24.3,66.4,90.7,O,10,EVEN,2
+STU001,Deol Allwyn Samuel J B,VLSI,4,CMOS Technology,3,0.9,88.4,True,22.4,67.3,89.7,A+,9,EVEN,2
+STU001,Deol Allwyn Samuel J B,VLSI,4,HDL Programming,4,0.75,93.5,True,22.7,65.5,88.2,A+,9,EVEN,2
+STU001,Deol Allwyn Samuel J B,VLSI,4,Analog Electronics,3,0.65,87.9,True,18.1,63.9,82.0,A+,9,EVEN,2
+STU002,Harish Venkat T,VLSI,4,VLSI Design,4,0.85,85.8,True,22.2,64.9,87.1,A+,9,EVEN,2
+STU002,Harish Venkat T,VLSI,4,Digital Systems,3,0.7,87.7,True,21.7,65.9,87.6,A+,9,EVEN,2
+STU002,Harish Venkat T,VLSI,4,Embedded Systems,4,0.8,86.3,True,21.7,71.6,93.3,O,10,EVEN,2
+STU002,Harish Venkat T,VLSI,4,CMOS Technology,3,0.9,83.2,True,21.1,67.6,88.7,A+,9,EVEN,2
+STU002,Harish Venkat T,VLSI,4,HDL Programming,4,0.75,86.2,True,22.5,62.2,84.7,A+,9,EVEN,2
+STU002,Harish Venkat T,VLSI,4,Analog Electronics,3,0.65,82.7,True,20.1,63.1,83.2,A+,9,EVEN,2
+STU003,Rahul Krishnan V,VLSI,4,VLSI Design,4,0.85,95.8,True,23.9,70.3,94.2,O,10,EVEN,2
+STU003,Rahul Krishnan V,VLSI,4,Digital Systems,3,0.7,90.7,True,24.1,69.4,93.5,O,10,EVEN,2
+STU003,Rahul Krishnan V,VLSI,4,Embedded Systems,4,0.8,96.3,True,23.6,72.6,96.2,O,10,EVEN,2
+STU003,Rahul Krishnan V,VLSI,4,CMOS Technology,3,0.9,94.1,True,23.8,72.6,96.4,O,10,EVEN,2
+STU003,Rahul Krishnan V,VLSI,4,HDL Programming,4,0.75,92.8,True,23.5,70.3,93.8,O,10,EVEN,2
+STU003,Rahul Krishnan V,VLSI,4,Analog Electronics,3,0.65,94.6,True,24.5,75.0,99.5,O,10,EVEN,2
+STU004,Divya Ramesh T,VLSI,3,VLSI Design,4,0.85,57.3,False,14.7,0.0,0.0,DETAINED,0,EVEN,2
+STU004,Divya Ramesh T,VLSI,3,Digital Systems,3,0.7,56.6,False,15.3,0.0,0.0,DETAINED,0,EVEN,2
+STU004,Divya Ramesh T,VLSI,3,Embedded Systems,4,0.8,60.3,False,15.9,0.0,0.0,DETAINED,0,EVEN,2
+STU004,Divya Ramesh T,VLSI,3,CMOS Technology,3,0.9,59.7,False,16.7,0.0,0.0,DETAINED,0,EVEN,2
+STU004,Divya Ramesh T,VLSI,3,HDL Programming,4,0.75,55.0,False,15.1,0.0,0.0,DETAINED,0,EVEN,2
+STU004,Divya Ramesh T,VLSI,3,Analog Electronics,3,0.65,58.2,False,14.5,0.0,0.0,DETAINED,0,EVEN,2
+STU005,Kavitha Mohan S,VLSI,3,VLSI Design,4,0.85,87.9,True,21.5,62.4,83.9,A+,9,EVEN,2
+STU005,Kavitha Mohan S,VLSI,3,Digital Systems,3,0.7,80.8,True,23.0,61.7,84.7,A+,9,EVEN,2
+STU005,Kavitha Mohan S,VLSI,3,Embedded Systems,4,0.8,87.3,True,21.7,59.2,80.9,A+,9,EVEN,2
+STU005,Kavitha Mohan S,VLSI,3,CMOS Technology,3,0.9,83.3,True,20.1,56.3,76.4,A,8,EVEN,2
+STU005,Kavitha Mohan S,VLSI,3,HDL Programming,4,0.75,86.9,True,21.0,65.1,86.1,A+,9,EVEN,2
+STU005,Kavitha Mohan S,VLSI,3,Analog Electronics,3,0.65,80.0,True,22.8,61.5,84.3,A+,9,EVEN,2
+STU006,Suresh Kumar N,VLSI,2,VLSI Design,4,0.85,45.4,False,12.8,0.0,0.0,DETAINED,0,EVEN,2
+STU006,Suresh Kumar N,VLSI,2,Digital Systems,3,0.7,44.2,False,15.0,0.0,0.0,DETAINED,0,EVEN,2
+STU006,Suresh Kumar N,VLSI,2,Embedded Systems,4,0.8,55.0,False,14.4,0.0,0.0,DETAINED,0,EVEN,2
+STU006,Suresh Kumar N,VLSI,2,CMOS Technology,3,0.9,52.1,False,13.1,0.0,0.0,DETAINED,0,EVEN,2
+STU006,Suresh Kumar N,VLSI,2,HDL Programming,4,0.75,49.7,False,10.1,0.0,0.0,DETAINED,0,EVEN,2
+STU006,Suresh Kumar N,VLSI,2,Analog Electronics,3,0.65,49.3,False,12.3,0.0,0.0,DETAINED,0,EVEN,2
+STU007,Annamalai P,VLSI,2,VLSI Design,4,0.85,36.5,False,9.5,0.0,0.0,DETAINED,0,EVEN,2
+STU007,Annamalai P,VLSI,2,Digital Systems,3,0.7,34.7,False,10.2,0.0,0.0,DETAINED,0,EVEN,2
+STU007,Annamalai P,VLSI,2,Embedded Systems,4,0.8,37.6,False,10.9,0.0,0.0,DETAINED,0,EVEN,2
+STU007,Annamalai P,VLSI,2,CMOS Technology,3,0.9,35.0,False,9.2,0.0,0.0,DETAINED,0,EVEN,2
+STU007,Annamalai P,VLSI,2,HDL Programming,4,0.75,41.4,False,11.7,0.0,0.0,DETAINED,0,EVEN,2
+STU007,Annamalai P,VLSI,2,Analog Electronics,3,0.65,45.6,False,12.0,0.0,0.0,DETAINED,0,EVEN,2
+STU008,Revathi J,VLSI,1,VLSI Design,4,0.85,81.9,True,20.1,57.1,77.2,A,8,EVEN,2
+STU008,Revathi J,VLSI,1,Digital Systems,3,0.7,81.7,True,20.4,61.7,82.1,A+,9,EVEN,2
+STU008,Revathi J,VLSI,1,Embedded Systems,4,0.8,82.3,True,19.8,62.2,82.0,A+,9,EVEN,2
+STU008,Revathi J,VLSI,1,CMOS Technology,3,0.9,85.4,True,19.4,60.3,79.7,A,8,EVEN,2
+STU008,Revathi J,VLSI,1,HDL Programming,4,0.75,84.2,True,18.3,58.4,76.7,A,8,EVEN,2
+STU008,Revathi J,VLSI,1,Analog Electronics,3,0.65,82.9,True,20.0,66.5,86.5,A+,9,EVEN,2
+STU009,Aravind Kumar R,CSE,3,Data Structures,4,0.8,66.7,False,19.3,0.0,0.0,DETAINED,0,EVEN,2
+STU009,Aravind Kumar R,CSE,3,Operating Systems,3,0.72,74.6,False,20.6,0.0,0.0,DETAINED,0,EVEN,2
+STU009,Aravind Kumar R,CSE,3,Machine Learning,4,0.88,61.8,False,19.5,0.0,0.0,DETAINED,0,EVEN,2
+STU009,Aravind Kumar R,CSE,3,DBMS,3,0.65,77.0,True,18.5,60.3,78.8,A,8,EVEN,2
+STU009,Aravind Kumar R,CSE,3,Computer Networks,3,0.7,69.9,False,17.1,0.0,0.0,DETAINED,0,EVEN,2
+STU009,Aravind Kumar R,CSE,3,Algorithms,4,0.85,76.5,True,21.7,60.1,81.8,A+,9,EVEN,2
+STU009,Aravind Kumar R,CSE,3,Software Engineering,3,0.6,77.2,True,19.5,56.2,75.7,A,8,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,Data Structures,4,0.8,81.8,True,24.8,57.3,82.1,A+,9,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,Operating Systems,3,0.72,84.1,True,21.6,66.4,88.0,A+,9,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,Machine Learning,4,0.88,83.5,True,21.2,64.4,85.6,A+,9,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,DBMS,3,0.65,82.8,True,24.2,65.8,90.0,O,10,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,Computer Networks,3,0.7,80.0,True,23.0,66.6,89.6,A+,9,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,Algorithms,4,0.85,91.6,True,21.4,72.1,93.5,O,10,EVEN,2
+STU010,Sowmiya Devi P,CSE,3,Software Engineering,3,0.6,80.0,True,21.9,72.4,94.3,O,10,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,Data Structures,4,0.8,38.6,False,13.0,0.0,0.0,DETAINED,0,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,Operating Systems,3,0.72,35.1,False,11.5,0.0,0.0,DETAINED,0,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,Machine Learning,4,0.88,33.9,False,10.6,0.0,0.0,DETAINED,0,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,DBMS,3,0.65,43.8,False,12.9,0.0,0.0,DETAINED,0,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,Computer Networks,3,0.7,46.9,False,12.9,0.0,0.0,DETAINED,0,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,Algorithms,4,0.85,42.0,False,12.9,0.0,0.0,DETAINED,0,EVEN,2
+STU011,Vishnu Prasad K,CSE,1,Software Engineering,3,0.6,27.5,False,8.7,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,Data Structures,4,0.8,64.8,False,14.0,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,Operating Systems,3,0.72,71.2,False,15.8,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,Machine Learning,4,0.88,58.1,False,14.3,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,DBMS,3,0.65,65.5,False,14.6,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,Computer Networks,3,0.7,62.3,False,18.5,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,Algorithms,4,0.85,64.8,False,14.0,0.0,0.0,DETAINED,0,EVEN,2
+STU012,Meera Anand S,CSE,2,Software Engineering,3,0.6,62.4,False,18.1,0.0,0.0,DETAINED,0,EVEN,2
+STU013,Naveen Chandran K,CSE,4,Data Structures,4,0.8,70.0,False,19.3,0.0,0.0,DETAINED,0,EVEN,2
+STU013,Naveen Chandran K,CSE,4,Operating Systems,3,0.72,72.5,False,18.3,0.0,0.0,DETAINED,0,EVEN,2
+STU013,Naveen Chandran K,CSE,4,Machine Learning,4,0.88,75.5,True,19.2,51.1,70.3,A,8,EVEN,2
+STU013,Naveen Chandran K,CSE,4,DBMS,3,0.65,66.9,False,17.2,0.0,0.0,DETAINED,0,EVEN,2
+STU013,Naveen Chandran K,CSE,4,Computer Networks,3,0.7,73.6,False,19.2,0.0,0.0,DETAINED,0,EVEN,2
+STU013,Naveen Chandran K,CSE,4,Algorithms,4,0.85,62.3,False,17.4,0.0,0.0,DETAINED,0,EVEN,2
+STU013,Naveen Chandran K,CSE,4,Software Engineering,3,0.6,72.8,False,17.8,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,Data Structures,4,0.8,34.6,False,8.8,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,Operating Systems,3,0.72,44.0,False,12.1,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,Machine Learning,4,0.88,34.5,False,8.9,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,DBMS,3,0.65,30.1,False,7.6,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,Computer Networks,3,0.7,43.3,False,8.3,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,Algorithms,4,0.85,40.6,False,9.9,0.0,0.0,DETAINED,0,EVEN,2
+STU014,Balamurugan N,CSE,2,Software Engineering,3,0.6,39.0,False,10.9,0.0,0.0,DETAINED,0,EVEN,2
+STU015,Saranya Prakash V,CSE,1,Data Structures,4,0.8,79.9,True,18.1,64.0,82.1,A+,9,EVEN,2
+STU015,Saranya Prakash V,CSE,1,Operating Systems,3,0.72,79.3,True,20.8,62.6,83.4,A+,9,EVEN,2
+STU015,Saranya Prakash V,CSE,1,Machine Learning,4,0.88,81.3,True,19.5,61.6,81.1,A+,9,EVEN,2
+STU015,Saranya Prakash V,CSE,1,DBMS,3,0.65,82.3,True,22.8,63.8,86.6,A+,9,EVEN,2
+STU015,Saranya Prakash V,CSE,1,Computer Networks,3,0.7,87.3,True,20.9,51.0,71.9,A,8,EVEN,2
+STU015,Saranya Prakash V,CSE,1,Algorithms,4,0.85,83.6,True,20.6,59.9,80.5,A+,9,EVEN,2
+STU015,Saranya Prakash V,CSE,1,Software Engineering,3,0.6,77.1,True,19.1,57.4,76.5,A,8,EVEN,2
+STU016,Arjun Selvam T,CSE,3,Data Structures,4,0.8,62.8,False,19.3,0.0,0.0,DETAINED,0,EVEN,2
+STU016,Arjun Selvam T,CSE,3,Operating Systems,3,0.72,70.9,False,18.2,0.0,0.0,DETAINED,0,EVEN,2
+STU016,Arjun Selvam T,CSE,3,Machine Learning,4,0.88,72.1,False,16.8,0.0,0.0,DETAINED,0,EVEN,2
+STU016,Arjun Selvam T,CSE,3,DBMS,3,0.65,74.4,False,18.4,0.0,0.0,DETAINED,0,EVEN,2
+STU016,Arjun Selvam T,CSE,3,Computer Networks,3,0.7,65.0,False,19.1,0.0,0.0,DETAINED,0,EVEN,2
+STU016,Arjun Selvam T,CSE,3,Algorithms,4,0.85,76.7,True,19.1,53.8,72.9,A,8,EVEN,2
+STU016,Arjun Selvam T,CSE,3,Software Engineering,3,0.6,68.6,False,16.4,0.0,0.0,DETAINED,0,EVEN,2
+STU017,Preethi Murali S,CSE,2,Data Structures,4,0.8,88.7,True,22.8,74.1,96.9,O,10,EVEN,2
+STU017,Preethi Murali S,CSE,2,Operating Systems,3,0.72,88.7,True,19.9,69.4,89.3,A+,9,EVEN,2
+STU017,Preethi Murali S,CSE,2,Machine Learning,4,0.88,85.9,True,22.2,66.2,88.4,A+,9,EVEN,2
+STU017,Preethi Murali S,CSE,2,DBMS,3,0.65,88.5,True,23.6,65.3,88.9,A+,9,EVEN,2
+STU017,Preethi Murali S,CSE,2,Computer Networks,3,0.7,92.7,True,23.9,71.8,95.7,O,10,EVEN,2
+STU017,Preethi Murali S,CSE,2,Algorithms,4,0.85,90.8,True,23.9,70.1,94.0,O,10,EVEN,2
+STU017,Preethi Murali S,CSE,2,Software Engineering,3,0.6,87.9,True,21.7,67.5,89.2,A+,9,EVEN,2
+STU018,Dinesh Babu K,CSE,4,Data Structures,4,0.8,56.0,False,12.4,0.0,0.0,DETAINED,0,EVEN,2
+STU018,Dinesh Babu K,CSE,4,Operating Systems,3,0.72,50.4,False,13.2,0.0,0.0,DETAINED,0,EVEN,2
+STU018,Dinesh Babu K,CSE,4,Machine Learning,4,0.88,52.3,False,13.6,0.0,0.0,DETAINED,0,EVEN,2
+STU018,Dinesh Babu K,CSE,4,DBMS,3,0.65,53.1,False,14.5,0.0,0.0,DETAINED,0,EVEN,2
+STU018,Dinesh Babu K,CSE,4,Computer Networks,3,0.7,46.0,False,15.1,0.0,0.0,DETAINED,0,EVEN,2
+STU018,Dinesh Babu K,CSE,4,Algorithms,4,0.85,53.9,False,12.8,0.0,0.0,DETAINED,0,EVEN,2
+STU018,Dinesh Babu K,CSE,4,Software Engineering,3,0.6,52.6,False,16.4,0.0,0.0,DETAINED,0,EVEN,2
+STU019,Priya Nair S,ECE,2,Signal Processing,4,0.88,83.3,True,21.8,58.9,80.7,A+,9,EVEN,2
+STU019,Priya Nair S,ECE,2,Microcontrollers,3,0.7,88.5,True,19.3,63.2,82.5,A+,9,EVEN,2
+STU019,Priya Nair S,ECE,2,Communication Systems,4,0.82,87.5,True,20.8,62.9,83.7,A+,9,EVEN,2
+STU019,Priya Nair S,ECE,2,VLSI Basics,3,0.75,87.0,True,21.0,59.3,80.3,A+,9,EVEN,2
+STU019,Priya Nair S,ECE,2,Antenna Theory,3,0.78,84.7,True,22.2,61.2,83.4,A+,9,EVEN,2
+STU019,Priya Nair S,ECE,2,Control Systems,4,0.85,79.0,True,23.7,64.6,88.3,A+,9,EVEN,2
+STU019,Priya Nair S,ECE,2,Digital Communication,3,0.72,88.7,True,22.6,64.3,86.9,A+,9,EVEN,2
+STU020,Deepika Sundaram,ECE,2,Signal Processing,4,0.88,70.0,False,20.5,0.0,0.0,DETAINED,0,EVEN,2
+STU020,Deepika Sundaram,ECE,2,Microcontrollers,3,0.7,70.4,False,19.9,0.0,0.0,DETAINED,0,EVEN,2
+STU020,Deepika Sundaram,ECE,2,Communication Systems,4,0.82,67.6,False,18.0,0.0,0.0,DETAINED,0,EVEN,2
+STU020,Deepika Sundaram,ECE,2,VLSI Basics,3,0.75,67.5,False,18.2,0.0,0.0,DETAINED,0,EVEN,2
+STU020,Deepika Sundaram,ECE,2,Antenna Theory,3,0.78,63.0,False,19.1,0.0,0.0,DETAINED,0,EVEN,2
+STU020,Deepika Sundaram,ECE,2,Control Systems,4,0.85,69.4,False,18.9,0.0,0.0,DETAINED,0,EVEN,2
+STU020,Deepika Sundaram,ECE,2,Digital Communication,3,0.72,65.1,False,17.3,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,Signal Processing,4,0.88,34.5,False,11.8,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,Microcontrollers,3,0.7,43.9,False,10.1,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,Communication Systems,4,0.82,39.5,False,11.5,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,VLSI Basics,3,0.75,32.8,False,9.2,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,Antenna Theory,3,0.78,36.9,False,12.4,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,Control Systems,4,0.85,36.7,False,7.6,0.0,0.0,DETAINED,0,EVEN,2
+STU021,Sanjay Murugan P,ECE,1,Digital Communication,3,0.72,35.9,False,8.3,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,Signal Processing,4,0.88,61.2,False,15.1,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,Microcontrollers,3,0.7,61.1,False,17.8,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,Communication Systems,4,0.82,64.0,False,15.2,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,VLSI Basics,3,0.75,62.0,False,15.0,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,Antenna Theory,3,0.78,59.7,False,14.0,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,Control Systems,4,0.85,58.6,False,12.2,0.0,0.0,DETAINED,0,EVEN,2
+STU022,Gopal Krishnan M,ECE,2,Digital Communication,3,0.72,59.8,False,17.0,0.0,0.0,DETAINED,0,EVEN,2
+STU023,Renuka Devi R,ECE,3,Signal Processing,4,0.88,88.6,True,24.4,72.9,97.3,O,10,EVEN,2
+STU023,Renuka Devi R,ECE,3,Microcontrollers,3,0.7,84.6,True,22.1,72.5,94.6,O,10,EVEN,2
+STU023,Renuka Devi R,ECE,3,Communication Systems,4,0.82,91.5,True,22.0,64.5,86.5,A+,9,EVEN,2
+STU023,Renuka Devi R,ECE,3,VLSI Basics,3,0.75,87.2,True,21.1,64.8,85.9,A+,9,EVEN,2
+STU023,Renuka Devi R,ECE,3,Antenna Theory,3,0.78,89.5,True,22.9,66.0,88.9,A+,9,EVEN,2
+STU023,Renuka Devi R,ECE,3,Control Systems,4,0.85,93.6,True,21.4,61.3,82.7,A+,9,EVEN,2
+STU023,Renuka Devi R,ECE,3,Digital Communication,3,0.72,87.2,True,20.0,61.3,81.3,A+,9,EVEN,2
+STU024,Senthil Kumar A,ECE,4,Signal Processing,4,0.88,42.1,False,11.1,0.0,0.0,DETAINED,0,EVEN,2
+STU024,Senthil Kumar A,ECE,4,Microcontrollers,3,0.7,51.8,False,14.3,0.0,0.0,DETAINED,0,EVEN,2
+STU024,Senthil Kumar A,ECE,4,Communication Systems,4,0.82,51.8,False,12.6,0.0,0.0,DETAINED,0,EVEN,2
+STU024,Senthil Kumar A,ECE,4,VLSI Basics,3,0.75,42.1,False,10.0,0.0,0.0,DETAINED,0,EVEN,2
+STU024,Senthil Kumar A,ECE,4,Antenna Theory,3,0.78,47.2,False,12.3,0.0,0.0,DETAINED,0,EVEN,2
+STU024,Senthil Kumar A,ECE,4,Control Systems,4,0.85,43.7,False,11.1,0.0,0.0,DETAINED,0,EVEN,2
+STU024,Senthil Kumar A,ECE,4,Digital Communication,3,0.72,46.8,False,10.0,0.0,0.0,DETAINED,0,EVEN,2
+STU025,Nithya Priya V,ECE,3,Signal Processing,4,0.88,78.8,True,19.5,64.2,83.7,A+,9,EVEN,2
+STU025,Nithya Priya V,ECE,3,Microcontrollers,3,0.7,77.6,True,19.6,66.0,85.6,A+,9,EVEN,2
+STU025,Nithya Priya V,ECE,3,Communication Systems,4,0.82,81.5,True,20.0,55.7,75.7,A,8,EVEN,2
+STU025,Nithya Priya V,ECE,3,VLSI Basics,3,0.75,79.7,True,19.8,63.5,83.3,A+,9,EVEN,2
+STU025,Nithya Priya V,ECE,3,Antenna Theory,3,0.78,84.6,True,21.2,57.4,78.6,A,8,EVEN,2
+STU025,Nithya Priya V,ECE,3,Control Systems,4,0.85,71.9,False,22.5,0.0,0.0,DETAINED,0,EVEN,2
+STU025,Nithya Priya V,ECE,3,Digital Communication,3,0.72,80.7,True,22.5,62.1,84.6,A+,9,EVEN,2
+STU026,Mahendran T,ECE,1,Signal Processing,4,0.88,69.6,False,18.7,0.0,0.0,DETAINED,0,EVEN,2
+STU026,Mahendran T,ECE,1,Microcontrollers,3,0.7,62.9,False,18.0,0.0,0.0,DETAINED,0,EVEN,2
+STU026,Mahendran T,ECE,1,Communication Systems,4,0.82,71.8,False,19.0,0.0,0.0,DETAINED,0,EVEN,2
+STU026,Mahendran T,ECE,1,VLSI Basics,3,0.75,65.4,False,19.3,0.0,0.0,DETAINED,0,EVEN,2
+STU026,Mahendran T,ECE,1,Antenna Theory,3,0.78,64.6,False,13.6,0.0,0.0,DETAINED,0,EVEN,2
+STU026,Mahendran T,ECE,1,Control Systems,4,0.85,67.3,False,16.9,0.0,0.0,DETAINED,0,EVEN,2
+STU026,Mahendran T,ECE,1,Digital Communication,3,0.72,67.0,False,17.7,0.0,0.0,DETAINED,0,EVEN,2
+STU027,Jayashree L,ECE,2,Signal Processing,4,0.88,96.7,True,23.4,68.9,92.3,O,10,EVEN,2
+STU027,Jayashree L,ECE,2,Microcontrollers,3,0.7,93.1,True,23.7,72.7,96.4,O,10,EVEN,2
+STU027,Jayashree L,ECE,2,Communication Systems,4,0.82,90.4,True,23.4,71.3,94.7,O,10,EVEN,2
+STU027,Jayashree L,ECE,2,VLSI Basics,3,0.75,91.6,True,21.6,75.0,96.6,O,10,EVEN,2
+STU027,Jayashree L,ECE,2,Antenna Theory,3,0.78,94.6,True,24.6,71.9,96.5,O,10,EVEN,2
+STU027,Jayashree L,ECE,2,Control Systems,4,0.85,91.9,True,22.3,67.4,89.7,A+,9,EVEN,2
+STU027,Jayashree L,ECE,2,Digital Communication,3,0.72,90.7,True,23.4,75.0,98.4,O,10,EVEN,2
+STU028,Karthik Rajan M,MECH,4,Thermodynamics,4,0.82,61.2,False,12.6,0.0,0.0,DETAINED,0,EVEN,2
+STU028,Karthik Rajan M,MECH,4,Fluid Mechanics,4,0.8,58.7,False,12.8,0.0,0.0,DETAINED,0,EVEN,2
+STU028,Karthik Rajan M,MECH,4,Machine Design,3,0.75,59.7,False,14.7,0.0,0.0,DETAINED,0,EVEN,2
+STU028,Karthik Rajan M,MECH,4,Manufacturing,3,0.65,58.5,False,13.2,0.0,0.0,DETAINED,0,EVEN,2
+STU028,Karthik Rajan M,MECH,4,CAD/CAM,4,0.7,61.8,False,15.6,0.0,0.0,DETAINED,0,EVEN,2
+STU028,Karthik Rajan M,MECH,4,Strength of Materials,4,0.85,58.8,False,16.5,0.0,0.0,DETAINED,0,EVEN,2
+STU029,Anitha Selvam R,MECH,3,Thermodynamics,4,0.82,80.1,True,19.2,64.8,84.0,A+,9,EVEN,2
+STU029,Anitha Selvam R,MECH,3,Fluid Mechanics,4,0.8,80.5,True,19.0,53.7,72.7,A,8,EVEN,2
+STU029,Anitha Selvam R,MECH,3,Machine Design,3,0.75,82.6,True,19.8,57.3,77.1,A,8,EVEN,2
+STU029,Anitha Selvam R,MECH,3,Manufacturing,3,0.65,80.3,True,20.1,64.3,84.4,A+,9,EVEN,2
+STU029,Anitha Selvam R,MECH,3,CAD/CAM,4,0.7,76.9,True,19.7,57.1,76.8,A,8,EVEN,2
+STU029,Anitha Selvam R,MECH,3,Strength of Materials,4,0.85,89.5,True,19.8,62.7,82.5,A+,9,EVEN,2
+STU030,Vijay Shankar R,MECH,4,Thermodynamics,4,0.82,54.5,False,11.6,0.0,0.0,DETAINED,0,EVEN,2
+STU030,Vijay Shankar R,MECH,4,Fluid Mechanics,4,0.8,32.1,False,11.8,0.0,0.0,DETAINED,0,EVEN,2
+STU030,Vijay Shankar R,MECH,4,Machine Design,3,0.75,47.4,False,12.9,0.0,0.0,DETAINED,0,EVEN,2
+STU030,Vijay Shankar R,MECH,4,Manufacturing,3,0.65,46.7,False,12.3,0.0,0.0,DETAINED,0,EVEN,2
+STU030,Vijay Shankar R,MECH,4,CAD/CAM,4,0.7,53.2,False,11.8,0.0,0.0,DETAINED,0,EVEN,2
+STU030,Vijay Shankar R,MECH,4,Strength of Materials,4,0.85,47.4,False,12.1,0.0,0.0,DETAINED,0,EVEN,2
+STU031,Surya Prakash K,MECH,2,Thermodynamics,4,0.82,71.6,False,17.8,0.0,0.0,DETAINED,0,EVEN,2
+STU031,Surya Prakash K,MECH,2,Fluid Mechanics,4,0.8,73.7,False,18.1,0.0,0.0,DETAINED,0,EVEN,2
+STU031,Surya Prakash K,MECH,2,Machine Design,3,0.75,76.7,True,19.3,56.1,75.4,A,8,EVEN,2
+STU031,Surya Prakash K,MECH,2,Manufacturing,3,0.65,73.0,False,17.7,0.0,0.0,DETAINED,0,EVEN,2
+STU031,Surya Prakash K,MECH,2,CAD/CAM,4,0.7,80.5,True,18.4,57.1,75.5,A,8,EVEN,2
+STU031,Surya Prakash K,MECH,2,Strength of Materials,4,0.85,75.7,True,22.1,53.5,75.6,A,8,EVEN,2
+STU032,Mohan Das T,MECH,3,Thermodynamics,4,0.82,40.4,False,13.8,0.0,0.0,DETAINED,0,EVEN,2
+STU032,Mohan Das T,MECH,3,Fluid Mechanics,4,0.8,33.3,False,10.2,0.0,0.0,DETAINED,0,EVEN,2
+STU032,Mohan Das T,MECH,3,Machine Design,3,0.75,37.7,False,10.2,0.0,0.0,DETAINED,0,EVEN,2
+STU032,Mohan Das T,MECH,3,Manufacturing,3,0.65,40.1,False,11.5,0.0,0.0,DETAINED,0,EVEN,2
+STU032,Mohan Das T,MECH,3,CAD/CAM,4,0.7,38.0,False,10.2,0.0,0.0,DETAINED,0,EVEN,2
+STU032,Mohan Das T,MECH,3,Strength of Materials,4,0.85,42.7,False,11.0,0.0,0.0,DETAINED,0,EVEN,2
+STU033,Tamilarasan S,MECH,1,Thermodynamics,4,0.82,75.7,True,16.6,55.9,72.5,A,8,EVEN,2
+STU033,Tamilarasan S,MECH,1,Fluid Mechanics,4,0.8,71.5,False,15.5,0.0,0.0,DETAINED,0,EVEN,2
+STU033,Tamilarasan S,MECH,1,Machine Design,3,0.75,67.8,False,15.8,0.0,0.0,DETAINED,0,EVEN,2
+STU033,Tamilarasan S,MECH,1,Manufacturing,3,0.65,71.2,False,14.8,0.0,0.0,DETAINED,0,EVEN,2
+STU033,Tamilarasan S,MECH,1,CAD/CAM,4,0.7,66.4,False,20.1,0.0,0.0,DETAINED,0,EVEN,2
+STU033,Tamilarasan S,MECH,1,Strength of Materials,4,0.85,70.6,False,14.8,0.0,0.0,DETAINED,0,EVEN,2
+STU034,Vignesh Kumar M,MECH,2,Thermodynamics,4,0.82,80.0,True,23.5,65.6,89.1,A+,9,EVEN,2
+STU034,Vignesh Kumar M,MECH,2,Fluid Mechanics,4,0.8,85.5,True,21.9,60.1,82.0,A+,9,EVEN,2
+STU034,Vignesh Kumar M,MECH,2,Machine Design,3,0.75,86.7,True,22.4,62.2,84.6,A+,9,EVEN,2
+STU034,Vignesh Kumar M,MECH,2,Manufacturing,3,0.65,84.4,True,20.5,58.6,79.1,A,8,EVEN,2
+STU034,Vignesh Kumar M,MECH,2,CAD/CAM,4,0.7,86.7,True,21.0,59.4,80.4,A+,9,EVEN,2
+STU034,Vignesh Kumar M,MECH,2,Strength of Materials,4,0.85,87.2,True,20.3,63.1,83.4,A+,9,EVEN,2
+STU035,Pavithra R,MECH,1,Thermodynamics,4,0.82,81.1,True,22.4,54.9,77.3,A,8,EVEN,2
+STU035,Pavithra R,MECH,1,Fluid Mechanics,4,0.8,79.6,True,20.7,63.5,84.2,A+,9,EVEN,2
+STU035,Pavithra R,MECH,1,Machine Design,3,0.75,86.8,True,19.7,59.6,79.3,A,8,EVEN,2
+STU035,Pavithra R,MECH,1,Manufacturing,3,0.65,80.3,True,23.0,58.4,81.4,A+,9,EVEN,2
+STU035,Pavithra R,MECH,1,CAD/CAM,4,0.7,87.1,True,23.5,64.7,88.2,A+,9,EVEN,2
+STU035,Pavithra R,MECH,1,Strength of Materials,4,0.85,83.9,True,23.2,64.4,87.6,A+,9,EVEN,2
+STU036,Kalai Selvi P,IT,3,Web Technologies,3,0.62,89.6,True,19.8,71.0,90.8,O,10,EVEN,2
+STU036,Kalai Selvi P,IT,3,Cloud Computing,4,0.72,86.1,True,21.0,68.1,89.1,A+,9,EVEN,2
+STU036,Kalai Selvi P,IT,3,Cybersecurity,3,0.8,86.2,True,23.8,68.1,91.9,O,10,EVEN,2
+STU036,Kalai Selvi P,IT,3,Big Data Analytics,4,0.78,88.0,True,22.5,68.9,91.4,O,10,EVEN,2
+STU036,Kalai Selvi P,IT,3,IoT Systems,3,0.68,84.2,True,25.0,72.5,97.5,O,10,EVEN,2
+STU036,Kalai Selvi P,IT,3,Mobile Development,3,0.65,87.2,True,19.4,73.8,93.2,O,10,EVEN,2
+STU037,Manoj Kumar R,IT,2,Web Technologies,3,0.62,71.2,False,16.8,0.0,0.0,DETAINED,0,EVEN,2
+STU037,Manoj Kumar R,IT,2,Cloud Computing,4,0.72,72.3,False,17.0,0.0,0.0,DETAINED,0,EVEN,2
+STU037,Manoj Kumar R,IT,2,Cybersecurity,3,0.8,63.0,False,14.0,0.0,0.0,DETAINED,0,EVEN,2
+STU037,Manoj Kumar R,IT,2,Big Data Analytics,4,0.78,72.9,False,17.5,0.0,0.0,DETAINED,0,EVEN,2
+STU037,Manoj Kumar R,IT,2,IoT Systems,3,0.68,62.7,False,19.6,0.0,0.0,DETAINED,0,EVEN,2
+STU037,Manoj Kumar R,IT,2,Mobile Development,3,0.65,75.3,True,16.8,45.8,62.6,B+,7,EVEN,2
+STU038,Sneha Lakshmi T,IT,3,Web Technologies,3,0.62,90.0,True,23.6,70.6,94.2,O,10,EVEN,2
+STU038,Sneha Lakshmi T,IT,3,Cloud Computing,4,0.72,92.0,True,24.7,70.4,95.1,O,10,EVEN,2
+STU038,Sneha Lakshmi T,IT,3,Cybersecurity,3,0.8,93.0,True,23.1,71.9,95.0,O,10,EVEN,2
+STU038,Sneha Lakshmi T,IT,3,Big Data Analytics,4,0.78,90.4,True,23.6,62.2,85.8,A+,9,EVEN,2
+STU038,Sneha Lakshmi T,IT,3,IoT Systems,3,0.68,91.0,True,23.9,72.6,96.5,O,10,EVEN,2
+STU038,Sneha Lakshmi T,IT,3,Mobile Development,3,0.65,92.4,True,23.7,71.0,94.7,O,10,EVEN,2
+STU039,Bharath Kumar S,IT,4,Web Technologies,3,0.62,46.3,False,15.1,0.0,0.0,DETAINED,0,EVEN,2
+STU039,Bharath Kumar S,IT,4,Cloud Computing,4,0.72,53.3,False,11.8,0.0,0.0,DETAINED,0,EVEN,2
+STU039,Bharath Kumar S,IT,4,Cybersecurity,3,0.8,41.9,False,11.2,0.0,0.0,DETAINED,0,EVEN,2
+STU039,Bharath Kumar S,IT,4,Big Data Analytics,4,0.78,42.9,False,8.2,0.0,0.0,DETAINED,0,EVEN,2
+STU039,Bharath Kumar S,IT,4,IoT Systems,3,0.68,48.6,False,13.0,0.0,0.0,DETAINED,0,EVEN,2
+STU039,Bharath Kumar S,IT,4,Mobile Development,3,0.65,52.1,False,11.5,0.0,0.0,DETAINED,0,EVEN,2
+STU040,Keerthana V,IT,2,Web Technologies,3,0.62,80.6,True,19.2,57.3,76.5,A,8,EVEN,2
+STU040,Keerthana V,IT,2,Cloud Computing,4,0.72,77.4,True,18.8,59.5,78.3,A,8,EVEN,2
+STU040,Keerthana V,IT,2,Cybersecurity,3,0.8,79.2,True,21.1,58.3,79.4,A,8,EVEN,2
+STU040,Keerthana V,IT,2,Big Data Analytics,4,0.78,78.1,True,19.9,60.5,80.4,A+,9,EVEN,2
+STU040,Keerthana V,IT,2,IoT Systems,3,0.68,76.7,True,21.2,59.1,80.3,A+,9,EVEN,2
+STU040,Keerthana V,IT,2,Mobile Development,3,0.65,72.7,False,17.9,0.0,0.0,DETAINED,0,EVEN,2
+STU041,Abishek Mohan N,IT,1,Web Technologies,3,0.62,67.6,False,18.8,0.0,0.0,DETAINED,0,EVEN,2
+STU041,Abishek Mohan N,IT,1,Cloud Computing,4,0.72,56.2,False,16.0,0.0,0.0,DETAINED,0,EVEN,2
+STU041,Abishek Mohan N,IT,1,Cybersecurity,3,0.8,63.6,False,16.0,0.0,0.0,DETAINED,0,EVEN,2
+STU041,Abishek Mohan N,IT,1,Big Data Analytics,4,0.78,65.7,False,14.1,0.0,0.0,DETAINED,0,EVEN,2
+STU041,Abishek Mohan N,IT,1,IoT Systems,3,0.68,64.6,False,17.6,0.0,0.0,DETAINED,0,EVEN,2
+STU041,Abishek Mohan N,IT,1,Mobile Development,3,0.65,54.7,False,14.1,0.0,0.0,DETAINED,0,EVEN,2
+STU042,Ramya Priya K,IT,4,Web Technologies,3,0.62,85.6,True,22.3,65.4,87.7,A+,9,EVEN,2
+STU042,Ramya Priya K,IT,4,Cloud Computing,4,0.72,86.6,True,21.7,63.7,85.4,A+,9,EVEN,2
+STU042,Ramya Priya K,IT,4,Cybersecurity,3,0.8,94.7,True,22.2,57.4,79.6,A,8,EVEN,2
+STU042,Ramya Priya K,IT,4,Big Data Analytics,4,0.78,88.4,True,20.4,63.5,83.9,A+,9,EVEN,2
+STU042,Ramya Priya K,IT,4,IoT Systems,3,0.68,88.1,True,22.5,69.5,92.0,O,10,EVEN,2
+STU042,Ramya Priya K,IT,4,Mobile Development,3,0.65,84.7,True,23.7,61.3,85.0,A+,9,EVEN,2
+STU043,Sugumar T,IT,3,Web Technologies,3,0.62,42.1,False,8.8,0.0,0.0,DETAINED,0,EVEN,2
+STU043,Sugumar T,IT,3,Cloud Computing,4,0.72,39.2,False,9.1,0.0,0.0,DETAINED,0,EVEN,2
+STU043,Sugumar T,IT,3,Cybersecurity,3,0.8,39.6,False,9.4,0.0,0.0,DETAINED,0,EVEN,2
+STU043,Sugumar T,IT,3,Big Data Analytics,4,0.78,32.4,False,13.5,0.0,0.0,DETAINED,0,EVEN,2
+STU043,Sugumar T,IT,3,IoT Systems,3,0.68,35.3,False,11.0,0.0,0.0,DETAINED,0,EVEN,2
+STU043,Sugumar T,IT,3,Mobile Development,3,0.65,47.9,False,9.3,0.0,0.0,DETAINED,0,EVEN,2
+STU044,Nandini Krishnan R,AIDS,2,Deep Learning,4,0.92,91.4,True,22.3,68.6,90.9,O,10,EVEN,2
+STU044,Nandini Krishnan R,AIDS,2,Computer Vision,4,0.9,92.8,True,24.4,67.6,92.0,O,10,EVEN,2
+STU044,Nandini Krishnan R,AIDS,2,Natural Language Processing,3,0.88,91.5,True,20.9,74.7,95.6,O,10,EVEN,2
+STU044,Nandini Krishnan R,AIDS,2,Robotics & Automation,3,0.85,90.5,True,22.1,71.3,93.4,O,10,EVEN,2
+STU044,Nandini Krishnan R,AIDS,2,Data Analytics,4,0.75,91.2,True,22.8,70.0,92.8,O,10,EVEN,2
+STU044,Nandini Krishnan R,AIDS,2,Statistical Learning,3,0.82,93.1,True,23.9,71.5,95.4,O,10,EVEN,2
+STU045,Aakash Sundar V,AIDS,3,Deep Learning,4,0.92,68.2,False,18.8,0.0,0.0,DETAINED,0,EVEN,2
+STU045,Aakash Sundar V,AIDS,3,Computer Vision,4,0.9,68.5,False,16.6,0.0,0.0,DETAINED,0,EVEN,2
+STU045,Aakash Sundar V,AIDS,3,Natural Language Processing,3,0.88,71.1,False,18.6,0.0,0.0,DETAINED,0,EVEN,2
+STU045,Aakash Sundar V,AIDS,3,Robotics & Automation,3,0.85,72.4,False,18.0,0.0,0.0,DETAINED,0,EVEN,2
+STU045,Aakash Sundar V,AIDS,3,Data Analytics,4,0.75,77.0,True,18.1,63.3,81.4,A+,9,EVEN,2
+STU045,Aakash Sundar V,AIDS,3,Statistical Learning,3,0.82,77.6,True,17.0,50.8,67.8,B+,7,EVEN,2
+STU046,Pooja Venkat S,AIDS,2,Deep Learning,4,0.92,88.4,True,22.4,65.4,87.8,A+,9,EVEN,2
+STU046,Pooja Venkat S,AIDS,2,Computer Vision,4,0.9,89.9,True,20.8,62.7,83.5,A+,9,EVEN,2
+STU046,Pooja Venkat S,AIDS,2,Natural Language Processing,3,0.88,91.2,True,22.0,65.1,87.1,A+,9,EVEN,2
+STU046,Pooja Venkat S,AIDS,2,Robotics & Automation,3,0.85,84.1,True,19.9,67.1,87.0,A+,9,EVEN,2
+STU046,Pooja Venkat S,AIDS,2,Data Analytics,4,0.75,89.9,True,22.7,73.7,96.4,O,10,EVEN,2
+STU046,Pooja Venkat S,AIDS,2,Statistical Learning,3,0.82,88.5,True,22.7,69.0,91.7,O,10,EVEN,2
+STU047,Siva Kumar M,AIDS,4,Deep Learning,4,0.92,51.3,False,14.7,0.0,0.0,DETAINED,0,EVEN,2
+STU047,Siva Kumar M,AIDS,4,Computer Vision,4,0.9,56.3,False,12.3,0.0,0.0,DETAINED,0,EVEN,2
+STU047,Siva Kumar M,AIDS,4,Natural Language Processing,3,0.88,47.7,False,13.5,0.0,0.0,DETAINED,0,EVEN,2
+STU047,Siva Kumar M,AIDS,4,Robotics & Automation,3,0.85,52.3,False,13.2,0.0,0.0,DETAINED,0,EVEN,2
+STU047,Siva Kumar M,AIDS,4,Data Analytics,4,0.75,56.7,False,14.8,0.0,0.0,DETAINED,0,EVEN,2
+STU047,Siva Kumar M,AIDS,4,Statistical Learning,3,0.82,52.4,False,12.8,0.0,0.0,DETAINED,0,EVEN,2
+STU048,Dharani Devi T,AIDS,3,Deep Learning,4,0.92,79.9,True,19.3,58.5,77.8,A,8,EVEN,2
+STU048,Dharani Devi T,AIDS,3,Computer Vision,4,0.9,82.9,True,21.5,60.8,82.3,A+,9,EVEN,2
+STU048,Dharani Devi T,AIDS,3,Natural Language Processing,3,0.88,78.9,True,18.1,52.4,70.5,A,8,EVEN,2
+STU048,Dharani Devi T,AIDS,3,Robotics & Automation,3,0.85,77.2,True,22.3,54.1,76.4,A,8,EVEN,2
+STU048,Dharani Devi T,AIDS,3,Data Analytics,4,0.75,75.2,True,19.3,65.8,85.1,A+,9,EVEN,2
+STU048,Dharani Devi T,AIDS,3,Statistical Learning,3,0.82,83.6,True,19.4,58.6,78.0,A,8,EVEN,2
+STU049,Balaji Raj N,AIDS,1,Deep Learning,4,0.92,60.3,False,15.6,0.0,0.0,DETAINED,0,EVEN,2
+STU049,Balaji Raj N,AIDS,1,Computer Vision,4,0.9,68.7,False,15.2,0.0,0.0,DETAINED,0,EVEN,2
+STU049,Balaji Raj N,AIDS,1,Natural Language Processing,3,0.88,65.9,False,17.8,0.0,0.0,DETAINED,0,EVEN,2
+STU049,Balaji Raj N,AIDS,1,Robotics & Automation,3,0.85,62.1,False,14.7,0.0,0.0,DETAINED,0,EVEN,2
+STU049,Balaji Raj N,AIDS,1,Data Analytics,4,0.75,65.0,False,18.5,0.0,0.0,DETAINED,0,EVEN,2
+STU049,Balaji Raj N,AIDS,1,Statistical Learning,3,0.82,60.0,False,16.1,0.0,0.0,DETAINED,0,EVEN,2
+STU050,Ishwarya Lakshmi P,AIDS,2,Deep Learning,4,0.92,88.3,True,24.2,75.0,99.2,O,10,EVEN,2
+STU050,Ishwarya Lakshmi P,AIDS,2,Computer Vision,4,0.9,84.2,True,25.0,65.0,90.0,O,10,EVEN,2
+STU050,Ishwarya Lakshmi P,AIDS,2,Natural Language Processing,3,0.88,83.6,True,24.8,65.3,90.1,O,10,EVEN,2
+STU050,Ishwarya Lakshmi P,AIDS,2,Robotics & Automation,3,0.85,89.6,True,25.0,67.8,92.8,O,10,EVEN,2
+STU050,Ishwarya Lakshmi P,AIDS,2,Data Analytics,4,0.75,79.7,True,23.6,65.4,89.0,A+,9,EVEN,2
+STU050,Ishwarya Lakshmi P,AIDS,2,Statistical Learning,3,0.82,89.1,True,20.6,70.3,90.9,O,10,EVEN,2
+STU001,Deol Allwyn Samuel J B,VLSI,4,VLSI Design,4,0.85,95.5,True,22.7,61.9,84.6,A+,9,ODD,3
+STU001,Deol Allwyn Samuel J B,VLSI,4,Digital Systems,3,0.7,90.9,True,23.9,65.9,89.8,A+,9,ODD,3
+STU001,Deol Allwyn Samuel J B,VLSI,4,Embedded Systems,4,0.8,90.3,True,19.7,65.1,84.8,A+,9,ODD,3
+STU001,Deol Allwyn Samuel J B,VLSI,4,CMOS Technology,3,0.9,88.4,True,25.0,70.6,95.6,O,10,ODD,3
+STU001,Deol Allwyn Samuel J B,VLSI,4,HDL Programming,4,0.75,93.5,True,23.7,71.9,95.6,O,10,ODD,3
+STU001,Deol Allwyn Samuel J B,VLSI,4,Analog Electronics,3,0.65,87.9,True,21.9,62.4,84.3,A+,9,ODD,3
+STU002,Harish Venkat T,VLSI,4,VLSI Design,4,0.85,85.8,True,20.5,65.0,85.5,A+,9,ODD,3
+STU002,Harish Venkat T,VLSI,4,Digital Systems,3,0.7,87.7,True,21.6,63.1,84.7,A+,9,ODD,3
+STU002,Harish Venkat T,VLSI,4,Embedded Systems,4,0.8,86.3,True,21.7,66.6,88.3,A+,9,ODD,3
+STU002,Harish Venkat T,VLSI,4,CMOS Technology,3,0.9,83.2,True,20.2,65.0,85.2,A+,9,ODD,3
+STU002,Harish Venkat T,VLSI,4,HDL Programming,4,0.75,86.2,True,23.5,69.5,93.0,O,10,ODD,3
+STU002,Harish Venkat T,VLSI,4,Analog Electronics,3,0.65,82.7,True,20.1,68.9,89.0,A+,9,ODD,3
+STU003,Rahul Krishnan V,VLSI,4,VLSI Design,4,0.85,95.8,True,23.2,73.5,96.7,O,10,ODD,3
+STU003,Rahul Krishnan V,VLSI,4,Digital Systems,3,0.7,90.7,True,25.0,63.2,88.2,A+,9,ODD,3
+STU003,Rahul Krishnan V,VLSI,4,Embedded Systems,4,0.8,96.3,True,22.1,70.0,92.1,O,10,ODD,3
+STU003,Rahul Krishnan V,VLSI,4,CMOS Technology,3,0.9,94.1,True,23.0,66.9,89.9,A+,9,ODD,3
+STU003,Rahul Krishnan V,VLSI,4,HDL Programming,4,0.75,92.8,True,24.1,70.3,94.4,O,10,ODD,3
+STU003,Rahul Krishnan V,VLSI,4,Analog Electronics,3,0.65,94.6,True,24.7,70.9,95.6,O,10,ODD,3
+STU004,Divya Ramesh T,VLSI,3,VLSI Design,4,0.85,57.3,False,17.7,0.0,0.0,DETAINED,0,ODD,3
+STU004,Divya Ramesh T,VLSI,3,Digital Systems,3,0.7,56.6,False,15.7,0.0,0.0,DETAINED,0,ODD,3
+STU004,Divya Ramesh T,VLSI,3,Embedded Systems,4,0.8,60.3,False,13.2,0.0,0.0,DETAINED,0,ODD,3
+STU004,Divya Ramesh T,VLSI,3,CMOS Technology,3,0.9,59.7,False,12.9,0.0,0.0,DETAINED,0,ODD,3
+STU004,Divya Ramesh T,VLSI,3,HDL Programming,4,0.75,55.0,False,12.4,0.0,0.0,DETAINED,0,ODD,3
+STU004,Divya Ramesh T,VLSI,3,Analog Electronics,3,0.65,58.2,False,17.2,0.0,0.0,DETAINED,0,ODD,3
+STU005,Kavitha Mohan S,VLSI,3,VLSI Design,4,0.85,87.9,True,21.0,65.1,86.1,A+,9,ODD,3
+STU005,Kavitha Mohan S,VLSI,3,Digital Systems,3,0.7,80.8,True,20.1,67.8,87.9,A+,9,ODD,3
+STU005,Kavitha Mohan S,VLSI,3,Embedded Systems,4,0.8,87.3,True,20.2,62.7,82.9,A+,9,ODD,3
+STU005,Kavitha Mohan S,VLSI,3,CMOS Technology,3,0.9,83.3,True,20.6,53.6,74.2,A,8,ODD,3
+STU005,Kavitha Mohan S,VLSI,3,HDL Programming,4,0.75,86.9,True,22.0,64.8,86.8,A+,9,ODD,3
+STU005,Kavitha Mohan S,VLSI,3,Analog Electronics,3,0.65,80.0,True,18.6,59.5,78.1,A,8,ODD,3
+STU006,Suresh Kumar N,VLSI,2,VLSI Design,4,0.85,45.4,False,14.5,0.0,0.0,DETAINED,0,ODD,3
+STU006,Suresh Kumar N,VLSI,2,Digital Systems,3,0.7,44.2,False,15.3,0.0,0.0,DETAINED,0,ODD,3
+STU006,Suresh Kumar N,VLSI,2,Embedded Systems,4,0.8,55.0,False,11.6,0.0,0.0,DETAINED,0,ODD,3
+STU006,Suresh Kumar N,VLSI,2,CMOS Technology,3,0.9,52.1,False,10.4,0.0,0.0,DETAINED,0,ODD,3
+STU006,Suresh Kumar N,VLSI,2,HDL Programming,4,0.75,49.7,False,10.1,0.0,0.0,DETAINED,0,ODD,3
+STU006,Suresh Kumar N,VLSI,2,Analog Electronics,3,0.65,49.3,False,12.7,0.0,0.0,DETAINED,0,ODD,3
+STU007,Annamalai P,VLSI,2,VLSI Design,4,0.85,36.5,False,10.9,0.0,0.0,DETAINED,0,ODD,3
+STU007,Annamalai P,VLSI,2,Digital Systems,3,0.7,34.7,False,13.3,0.0,0.0,DETAINED,0,ODD,3
+STU007,Annamalai P,VLSI,2,Embedded Systems,4,0.8,37.6,False,10.2,0.0,0.0,DETAINED,0,ODD,3
+STU007,Annamalai P,VLSI,2,CMOS Technology,3,0.9,35.0,False,11.3,0.0,0.0,DETAINED,0,ODD,3
+STU007,Annamalai P,VLSI,2,HDL Programming,4,0.75,41.4,False,12.7,0.0,0.0,DETAINED,0,ODD,3
+STU007,Annamalai P,VLSI,2,Analog Electronics,3,0.65,45.6,False,11.5,0.0,0.0,DETAINED,0,ODD,3
+STU008,Revathi J,VLSI,1,VLSI Design,4,0.85,81.9,True,21.5,60.9,82.4,A+,9,ODD,3
+STU008,Revathi J,VLSI,1,Digital Systems,3,0.7,81.7,True,18.3,60.7,79.0,A,8,ODD,3
+STU008,Revathi J,VLSI,1,Embedded Systems,4,0.8,82.3,True,21.5,62.1,83.6,A+,9,ODD,3
+STU008,Revathi J,VLSI,1,CMOS Technology,3,0.9,85.4,True,19.8,58.6,78.4,A,8,ODD,3
+STU008,Revathi J,VLSI,1,HDL Programming,4,0.75,84.2,True,21.3,59.6,80.9,A+,9,ODD,3
+STU008,Revathi J,VLSI,1,Analog Electronics,3,0.65,82.9,True,18.3,56.0,74.3,A,8,ODD,3
+STU009,Aravind Kumar R,CSE,3,Data Structures,4,0.8,66.7,False,17.2,0.0,0.0,DETAINED,0,ODD,3
+STU009,Aravind Kumar R,CSE,3,Operating Systems,3,0.72,74.6,False,22.1,0.0,0.0,DETAINED,0,ODD,3
+STU009,Aravind Kumar R,CSE,3,Machine Learning,4,0.88,61.8,False,20.0,0.0,0.0,DETAINED,0,ODD,3
+STU009,Aravind Kumar R,CSE,3,DBMS,3,0.65,77.0,True,17.6,62.4,80.0,A+,9,ODD,3
+STU009,Aravind Kumar R,CSE,3,Computer Networks,3,0.7,69.9,False,16.7,0.0,0.0,DETAINED,0,ODD,3
+STU009,Aravind Kumar R,CSE,3,Algorithms,4,0.85,76.5,True,17.2,51.9,69.1,B+,7,ODD,3
+STU009,Aravind Kumar R,CSE,3,Software Engineering,3,0.6,77.2,True,21.4,56.4,77.8,A,8,ODD,3
+STU010,Sowmiya Devi P,CSE,3,Data Structures,4,0.8,81.8,True,22.8,68.6,91.4,O,10,ODD,3
+STU010,Sowmiya Devi P,CSE,3,Operating Systems,3,0.72,84.1,True,22.8,65.3,88.1,A+,9,ODD,3
+STU010,Sowmiya Devi P,CSE,3,Machine Learning,4,0.88,83.5,True,19.1,60.3,79.4,A,8,ODD,3
+STU010,Sowmiya Devi P,CSE,3,DBMS,3,0.65,82.8,True,21.7,68.6,90.3,O,10,ODD,3
+STU010,Sowmiya Devi P,CSE,3,Computer Networks,3,0.7,80.0,True,19.9,57.1,77.0,A,8,ODD,3
+STU010,Sowmiya Devi P,CSE,3,Algorithms,4,0.85,91.6,True,23.9,67.0,90.9,O,10,ODD,3
+STU010,Sowmiya Devi P,CSE,3,Software Engineering,3,0.6,80.0,True,22.6,68.6,91.2,O,10,ODD,3
+STU011,Vishnu Prasad K,CSE,1,Data Structures,4,0.8,38.6,False,11.4,0.0,0.0,DETAINED,0,ODD,3
+STU011,Vishnu Prasad K,CSE,1,Operating Systems,3,0.72,35.1,False,10.6,0.0,0.0,DETAINED,0,ODD,3
+STU011,Vishnu Prasad K,CSE,1,Machine Learning,4,0.88,33.9,False,13.1,0.0,0.0,DETAINED,0,ODD,3
+STU011,Vishnu Prasad K,CSE,1,DBMS,3,0.65,43.8,False,12.6,0.0,0.0,DETAINED,0,ODD,3
+STU011,Vishnu Prasad K,CSE,1,Computer Networks,3,0.7,46.9,False,11.5,0.0,0.0,DETAINED,0,ODD,3
+STU011,Vishnu Prasad K,CSE,1,Algorithms,4,0.85,42.0,False,9.6,0.0,0.0,DETAINED,0,ODD,3
+STU011,Vishnu Prasad K,CSE,1,Software Engineering,3,0.6,27.5,False,10.6,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,Data Structures,4,0.8,64.8,False,15.3,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,Operating Systems,3,0.72,71.2,False,14.7,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,Machine Learning,4,0.88,58.1,False,16.0,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,DBMS,3,0.65,65.5,False,14.1,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,Computer Networks,3,0.7,62.3,False,16.2,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,Algorithms,4,0.85,64.8,False,17.6,0.0,0.0,DETAINED,0,ODD,3
+STU012,Meera Anand S,CSE,2,Software Engineering,3,0.6,62.4,False,16.8,0.0,0.0,DETAINED,0,ODD,3
+STU013,Naveen Chandran K,CSE,4,Data Structures,4,0.8,70.0,False,18.5,0.0,0.0,DETAINED,0,ODD,3
+STU013,Naveen Chandran K,CSE,4,Operating Systems,3,0.72,72.5,False,18.0,0.0,0.0,DETAINED,0,ODD,3
+STU013,Naveen Chandran K,CSE,4,Machine Learning,4,0.88,75.5,True,19.3,58.0,77.3,A,8,ODD,3
+STU013,Naveen Chandran K,CSE,4,DBMS,3,0.65,66.9,False,16.5,0.0,0.0,DETAINED,0,ODD,3
+STU013,Naveen Chandran K,CSE,4,Computer Networks,3,0.7,73.6,False,20.6,0.0,0.0,DETAINED,0,ODD,3
+STU013,Naveen Chandran K,CSE,4,Algorithms,4,0.85,62.3,False,17.5,0.0,0.0,DETAINED,0,ODD,3
+STU013,Naveen Chandran K,CSE,4,Software Engineering,3,0.6,72.8,False,18.6,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,Data Structures,4,0.8,34.6,False,9.9,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,Operating Systems,3,0.72,44.0,False,10.4,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,Machine Learning,4,0.88,34.5,False,9.4,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,DBMS,3,0.65,30.1,False,11.1,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,Computer Networks,3,0.7,43.3,False,13.1,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,Algorithms,4,0.85,40.6,False,11.1,0.0,0.0,DETAINED,0,ODD,3
+STU014,Balamurugan N,CSE,2,Software Engineering,3,0.6,39.0,False,9.9,0.0,0.0,DETAINED,0,ODD,3
+STU015,Saranya Prakash V,CSE,1,Data Structures,4,0.8,79.9,True,17.4,59.3,76.7,A,8,ODD,3
+STU015,Saranya Prakash V,CSE,1,Operating Systems,3,0.72,79.3,True,21.6,58.7,80.3,A+,9,ODD,3
+STU015,Saranya Prakash V,CSE,1,Machine Learning,4,0.88,81.3,True,19.3,56.4,75.7,A,8,ODD,3
+STU015,Saranya Prakash V,CSE,1,DBMS,3,0.65,82.3,True,17.4,59.7,77.1,A,8,ODD,3
+STU015,Saranya Prakash V,CSE,1,Computer Networks,3,0.7,87.3,True,19.6,65.6,85.2,A+,9,ODD,3
+STU015,Saranya Prakash V,CSE,1,Algorithms,4,0.85,83.6,True,17.3,51.0,68.3,B+,7,ODD,3
+STU015,Saranya Prakash V,CSE,1,Software Engineering,3,0.6,77.1,True,18.8,60.4,79.2,A,8,ODD,3
+STU016,Arjun Selvam T,CSE,3,Data Structures,4,0.8,62.8,False,21.1,0.0,0.0,DETAINED,0,ODD,3
+STU016,Arjun Selvam T,CSE,3,Operating Systems,3,0.72,70.9,False,16.7,0.0,0.0,DETAINED,0,ODD,3
+STU016,Arjun Selvam T,CSE,3,Machine Learning,4,0.88,72.1,False,19.2,0.0,0.0,DETAINED,0,ODD,3
+STU016,Arjun Selvam T,CSE,3,DBMS,3,0.65,74.4,False,17.4,0.0,0.0,DETAINED,0,ODD,3
+STU016,Arjun Selvam T,CSE,3,Computer Networks,3,0.7,65.0,False,17.4,0.0,0.0,DETAINED,0,ODD,3
+STU016,Arjun Selvam T,CSE,3,Algorithms,4,0.85,76.7,True,18.8,53.3,72.1,A,8,ODD,3
+STU016,Arjun Selvam T,CSE,3,Software Engineering,3,0.6,68.6,False,18.1,0.0,0.0,DETAINED,0,ODD,3
+STU017,Preethi Murali S,CSE,2,Data Structures,4,0.8,88.7,True,23.5,63.9,87.4,A+,9,ODD,3
+STU017,Preethi Murali S,CSE,2,Operating Systems,3,0.72,88.7,True,20.8,69.6,90.4,O,10,ODD,3
+STU017,Preethi Murali S,CSE,2,Machine Learning,4,0.88,85.9,True,22.9,63.7,86.6,A+,9,ODD,3
+STU017,Preethi Murali S,CSE,2,DBMS,3,0.65,88.5,True,21.5,73.1,94.6,O,10,ODD,3
+STU017,Preethi Murali S,CSE,2,Computer Networks,3,0.7,92.7,True,22.0,66.3,88.3,A+,9,ODD,3
+STU017,Preethi Murali S,CSE,2,Algorithms,4,0.85,90.8,True,24.4,63.8,88.2,A+,9,ODD,3
+STU017,Preethi Murali S,CSE,2,Software Engineering,3,0.6,87.9,True,21.4,71.1,92.5,O,10,ODD,3
+STU018,Dinesh Babu K,CSE,4,Data Structures,4,0.8,56.0,False,16.4,0.0,0.0,DETAINED,0,ODD,3
+STU018,Dinesh Babu K,CSE,4,Operating Systems,3,0.72,50.4,False,13.8,0.0,0.0,DETAINED,0,ODD,3
+STU018,Dinesh Babu K,CSE,4,Machine Learning,4,0.88,52.3,False,12.2,0.0,0.0,DETAINED,0,ODD,3
+STU018,Dinesh Babu K,CSE,4,DBMS,3,0.65,53.1,False,14.2,0.0,0.0,DETAINED,0,ODD,3
+STU018,Dinesh Babu K,CSE,4,Computer Networks,3,0.7,46.0,False,14.4,0.0,0.0,DETAINED,0,ODD,3
+STU018,Dinesh Babu K,CSE,4,Algorithms,4,0.85,53.9,False,14.1,0.0,0.0,DETAINED,0,ODD,3
+STU018,Dinesh Babu K,CSE,4,Software Engineering,3,0.6,52.6,False,13.1,0.0,0.0,DETAINED,0,ODD,3
+STU019,Priya Nair S,ECE,2,Signal Processing,4,0.88,83.3,True,20.9,60.8,81.7,A+,9,ODD,3
+STU019,Priya Nair S,ECE,2,Microcontrollers,3,0.7,88.5,True,22.2,69.7,91.9,O,10,ODD,3
+STU019,Priya Nair S,ECE,2,Communication Systems,4,0.82,87.5,True,22.2,64.3,86.5,A+,9,ODD,3
+STU019,Priya Nair S,ECE,2,VLSI Basics,3,0.75,87.0,True,19.7,62.3,82.0,A+,9,ODD,3
+STU019,Priya Nair S,ECE,2,Antenna Theory,3,0.78,84.7,True,22.4,61.9,84.3,A+,9,ODD,3
+STU019,Priya Nair S,ECE,2,Control Systems,4,0.85,79.0,True,20.8,63.9,84.7,A+,9,ODD,3
+STU019,Priya Nair S,ECE,2,Digital Communication,3,0.72,88.7,True,23.0,61.3,84.3,A+,9,ODD,3
+STU020,Deepika Sundaram,ECE,2,Signal Processing,4,0.88,70.0,False,19.1,0.0,0.0,DETAINED,0,ODD,3
+STU020,Deepika Sundaram,ECE,2,Microcontrollers,3,0.7,70.4,False,17.0,0.0,0.0,DETAINED,0,ODD,3
+STU020,Deepika Sundaram,ECE,2,Communication Systems,4,0.82,67.6,False,15.5,0.0,0.0,DETAINED,0,ODD,3
+STU020,Deepika Sundaram,ECE,2,VLSI Basics,3,0.75,67.5,False,18.6,0.0,0.0,DETAINED,0,ODD,3
+STU020,Deepika Sundaram,ECE,2,Antenna Theory,3,0.78,63.0,False,18.5,0.0,0.0,DETAINED,0,ODD,3
+STU020,Deepika Sundaram,ECE,2,Control Systems,4,0.85,69.4,False,14.4,0.0,0.0,DETAINED,0,ODD,3
+STU020,Deepika Sundaram,ECE,2,Digital Communication,3,0.72,65.1,False,16.8,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,Signal Processing,4,0.88,34.5,False,8.3,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,Microcontrollers,3,0.7,43.9,False,13.4,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,Communication Systems,4,0.82,39.5,False,10.2,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,VLSI Basics,3,0.75,32.8,False,12.8,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,Antenna Theory,3,0.78,36.9,False,11.6,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,Control Systems,4,0.85,36.7,False,8.2,0.0,0.0,DETAINED,0,ODD,3
+STU021,Sanjay Murugan P,ECE,1,Digital Communication,3,0.72,35.9,False,8.7,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,Signal Processing,4,0.88,61.2,False,12.0,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,Microcontrollers,3,0.7,61.1,False,13.4,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,Communication Systems,4,0.82,64.0,False,15.5,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,VLSI Basics,3,0.75,62.0,False,12.4,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,Antenna Theory,3,0.78,59.7,False,15.8,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,Control Systems,4,0.85,58.6,False,13.2,0.0,0.0,DETAINED,0,ODD,3
+STU022,Gopal Krishnan M,ECE,2,Digital Communication,3,0.72,59.8,False,13.1,0.0,0.0,DETAINED,0,ODD,3
+STU023,Renuka Devi R,ECE,3,Signal Processing,4,0.88,88.6,True,22.3,62.4,84.7,A+,9,ODD,3
+STU023,Renuka Devi R,ECE,3,Microcontrollers,3,0.7,84.6,True,24.1,68.9,93.0,O,10,ODD,3
+STU023,Renuka Devi R,ECE,3,Communication Systems,4,0.82,91.5,True,22.8,60.8,83.6,A+,9,ODD,3
+STU023,Renuka Devi R,ECE,3,VLSI Basics,3,0.75,87.2,True,23.1,64.3,87.4,A+,9,ODD,3
+STU023,Renuka Devi R,ECE,3,Antenna Theory,3,0.78,89.5,True,22.7,64.3,87.0,A+,9,ODD,3
+STU023,Renuka Devi R,ECE,3,Control Systems,4,0.85,93.6,True,20.7,70.0,90.7,O,10,ODD,3
+STU023,Renuka Devi R,ECE,3,Digital Communication,3,0.72,87.2,True,20.9,64.9,85.8,A+,9,ODD,3
+STU024,Senthil Kumar A,ECE,4,Signal Processing,4,0.88,42.1,False,9.2,0.0,0.0,DETAINED,0,ODD,3
+STU024,Senthil Kumar A,ECE,4,Microcontrollers,3,0.7,51.8,False,12.6,0.0,0.0,DETAINED,0,ODD,3
+STU024,Senthil Kumar A,ECE,4,Communication Systems,4,0.82,51.8,False,12.4,0.0,0.0,DETAINED,0,ODD,3
+STU024,Senthil Kumar A,ECE,4,VLSI Basics,3,0.75,42.1,False,14.2,0.0,0.0,DETAINED,0,ODD,3
+STU024,Senthil Kumar A,ECE,4,Antenna Theory,3,0.78,47.2,False,11.2,0.0,0.0,DETAINED,0,ODD,3
+STU024,Senthil Kumar A,ECE,4,Control Systems,4,0.85,43.7,False,11.4,0.0,0.0,DETAINED,0,ODD,3
+STU024,Senthil Kumar A,ECE,4,Digital Communication,3,0.72,46.8,False,9.0,0.0,0.0,DETAINED,0,ODD,3
+STU025,Nithya Priya V,ECE,3,Signal Processing,4,0.88,78.8,True,20.2,59.4,79.6,A,8,ODD,3
+STU025,Nithya Priya V,ECE,3,Microcontrollers,3,0.7,77.6,True,23.3,58.6,81.9,A+,9,ODD,3
+STU025,Nithya Priya V,ECE,3,Communication Systems,4,0.82,81.5,True,21.5,55.1,76.6,A,8,ODD,3
+STU025,Nithya Priya V,ECE,3,VLSI Basics,3,0.75,79.7,True,21.5,54.5,76.0,A,8,ODD,3
+STU025,Nithya Priya V,ECE,3,Antenna Theory,3,0.78,84.6,True,20.3,61.6,81.9,A+,9,ODD,3
+STU025,Nithya Priya V,ECE,3,Control Systems,4,0.85,71.9,False,18.2,0.0,0.0,DETAINED,0,ODD,3
+STU025,Nithya Priya V,ECE,3,Digital Communication,3,0.72,80.7,True,19.1,61.9,81.0,A+,9,ODD,3
+STU026,Mahendran T,ECE,1,Signal Processing,4,0.88,69.6,False,17.4,0.0,0.0,DETAINED,0,ODD,3
+STU026,Mahendran T,ECE,1,Microcontrollers,3,0.7,62.9,False,15.7,0.0,0.0,DETAINED,0,ODD,3
+STU026,Mahendran T,ECE,1,Communication Systems,4,0.82,71.8,False,15.8,0.0,0.0,DETAINED,0,ODD,3
+STU026,Mahendran T,ECE,1,VLSI Basics,3,0.75,65.4,False,20.2,0.0,0.0,DETAINED,0,ODD,3
+STU026,Mahendran T,ECE,1,Antenna Theory,3,0.78,64.6,False,14.3,0.0,0.0,DETAINED,0,ODD,3
+STU026,Mahendran T,ECE,1,Control Systems,4,0.85,67.3,False,16.5,0.0,0.0,DETAINED,0,ODD,3
+STU026,Mahendran T,ECE,1,Digital Communication,3,0.72,67.0,False,13.0,0.0,0.0,DETAINED,0,ODD,3
+STU027,Jayashree L,ECE,2,Signal Processing,4,0.88,96.7,True,24.3,72.8,97.1,O,10,ODD,3
+STU027,Jayashree L,ECE,2,Microcontrollers,3,0.7,93.1,True,22.1,75.0,97.1,O,10,ODD,3
+STU027,Jayashree L,ECE,2,Communication Systems,4,0.82,90.4,True,23.8,69.2,93.0,O,10,ODD,3
+STU027,Jayashree L,ECE,2,VLSI Basics,3,0.75,91.6,True,22.3,71.6,93.9,O,10,ODD,3
+STU027,Jayashree L,ECE,2,Antenna Theory,3,0.78,94.6,True,21.8,71.6,93.4,O,10,ODD,3
+STU027,Jayashree L,ECE,2,Control Systems,4,0.85,91.9,True,22.8,75.0,97.8,O,10,ODD,3
+STU027,Jayashree L,ECE,2,Digital Communication,3,0.72,90.7,True,22.4,70.1,92.5,O,10,ODD,3
+STU028,Karthik Rajan M,MECH,4,Thermodynamics,4,0.82,61.2,False,14.0,0.0,0.0,DETAINED,0,ODD,3
+STU028,Karthik Rajan M,MECH,4,Fluid Mechanics,4,0.8,58.7,False,13.5,0.0,0.0,DETAINED,0,ODD,3
+STU028,Karthik Rajan M,MECH,4,Machine Design,3,0.75,59.7,False,15.2,0.0,0.0,DETAINED,0,ODD,3
+STU028,Karthik Rajan M,MECH,4,Manufacturing,3,0.65,58.5,False,16.5,0.0,0.0,DETAINED,0,ODD,3
+STU028,Karthik Rajan M,MECH,4,CAD/CAM,4,0.7,61.8,False,12.5,0.0,0.0,DETAINED,0,ODD,3
+STU028,Karthik Rajan M,MECH,4,Strength of Materials,4,0.85,58.8,False,14.9,0.0,0.0,DETAINED,0,ODD,3
+STU029,Anitha Selvam R,MECH,3,Thermodynamics,4,0.82,80.1,True,21.9,65.1,87.0,A+,9,ODD,3
+STU029,Anitha Selvam R,MECH,3,Fluid Mechanics,4,0.8,80.5,True,18.6,60.5,79.1,A,8,ODD,3
+STU029,Anitha Selvam R,MECH,3,Machine Design,3,0.75,82.6,True,20.7,51.3,72.0,A,8,ODD,3
+STU029,Anitha Selvam R,MECH,3,Manufacturing,3,0.65,80.3,True,18.4,60.3,78.7,A,8,ODD,3
+STU029,Anitha Selvam R,MECH,3,CAD/CAM,4,0.7,76.9,True,18.7,62.3,81.0,A+,9,ODD,3
+STU029,Anitha Selvam R,MECH,3,Strength of Materials,4,0.85,89.5,True,18.5,56.7,75.2,A,8,ODD,3
+STU030,Vijay Shankar R,MECH,4,Thermodynamics,4,0.82,54.5,False,13.5,0.0,0.0,DETAINED,0,ODD,3
+STU030,Vijay Shankar R,MECH,4,Fluid Mechanics,4,0.8,32.1,False,10.0,0.0,0.0,DETAINED,0,ODD,3
+STU030,Vijay Shankar R,MECH,4,Machine Design,3,0.75,47.4,False,14.7,0.0,0.0,DETAINED,0,ODD,3
+STU030,Vijay Shankar R,MECH,4,Manufacturing,3,0.65,46.7,False,13.6,0.0,0.0,DETAINED,0,ODD,3
+STU030,Vijay Shankar R,MECH,4,CAD/CAM,4,0.7,53.2,False,12.3,0.0,0.0,DETAINED,0,ODD,3
+STU030,Vijay Shankar R,MECH,4,Strength of Materials,4,0.85,47.4,False,13.1,0.0,0.0,DETAINED,0,ODD,3
+STU031,Surya Prakash K,MECH,2,Thermodynamics,4,0.82,71.6,False,19.7,0.0,0.0,DETAINED,0,ODD,3
+STU031,Surya Prakash K,MECH,2,Fluid Mechanics,4,0.8,73.7,False,17.6,0.0,0.0,DETAINED,0,ODD,3
+STU031,Surya Prakash K,MECH,2,Machine Design,3,0.75,76.7,True,18.0,55.4,73.4,A,8,ODD,3
+STU031,Surya Prakash K,MECH,2,Manufacturing,3,0.65,73.0,False,19.9,0.0,0.0,DETAINED,0,ODD,3
+STU031,Surya Prakash K,MECH,2,CAD/CAM,4,0.7,80.5,True,18.5,56.3,74.8,A,8,ODD,3
+STU031,Surya Prakash K,MECH,2,Strength of Materials,4,0.85,75.7,True,18.2,55.7,73.9,A,8,ODD,3
+STU032,Mohan Das T,MECH,3,Thermodynamics,4,0.82,40.4,False,11.4,0.0,0.0,DETAINED,0,ODD,3
+STU032,Mohan Das T,MECH,3,Fluid Mechanics,4,0.8,33.3,False,11.3,0.0,0.0,DETAINED,0,ODD,3
+STU032,Mohan Das T,MECH,3,Machine Design,3,0.75,37.7,False,10.5,0.0,0.0,DETAINED,0,ODD,3
+STU032,Mohan Das T,MECH,3,Manufacturing,3,0.65,40.1,False,12.9,0.0,0.0,DETAINED,0,ODD,3
+STU032,Mohan Das T,MECH,3,CAD/CAM,4,0.7,38.0,False,10.2,0.0,0.0,DETAINED,0,ODD,3
+STU032,Mohan Das T,MECH,3,Strength of Materials,4,0.85,42.7,False,11.9,0.0,0.0,DETAINED,0,ODD,3
+STU033,Tamilarasan S,MECH,1,Thermodynamics,4,0.82,75.7,True,18.2,50.7,68.9,B+,7,ODD,3
+STU033,Tamilarasan S,MECH,1,Fluid Mechanics,4,0.8,71.5,False,18.6,0.0,0.0,DETAINED,0,ODD,3
+STU033,Tamilarasan S,MECH,1,Machine Design,3,0.75,67.8,False,16.3,0.0,0.0,DETAINED,0,ODD,3
+STU033,Tamilarasan S,MECH,1,Manufacturing,3,0.65,71.2,False,14.7,0.0,0.0,DETAINED,0,ODD,3
+STU033,Tamilarasan S,MECH,1,CAD/CAM,4,0.7,66.4,False,16.6,0.0,0.0,DETAINED,0,ODD,3
+STU033,Tamilarasan S,MECH,1,Strength of Materials,4,0.85,70.6,False,15.3,0.0,0.0,DETAINED,0,ODD,3
+STU034,Vignesh Kumar M,MECH,2,Thermodynamics,4,0.82,80.0,True,21.2,61.8,83.0,A+,9,ODD,3
+STU034,Vignesh Kumar M,MECH,2,Fluid Mechanics,4,0.8,85.5,True,23.2,68.1,91.3,O,10,ODD,3
+STU034,Vignesh Kumar M,MECH,2,Machine Design,3,0.75,86.7,True,21.3,67.6,88.9,A+,9,ODD,3
+STU034,Vignesh Kumar M,MECH,2,Manufacturing,3,0.65,84.4,True,19.9,63.3,83.2,A+,9,ODD,3
+STU034,Vignesh Kumar M,MECH,2,CAD/CAM,4,0.7,86.7,True,17.9,65.8,83.7,A+,9,ODD,3
+STU034,Vignesh Kumar M,MECH,2,Strength of Materials,4,0.85,87.2,True,20.2,63.6,83.8,A+,9,ODD,3
+STU035,Pavithra R,MECH,1,Thermodynamics,4,0.82,81.1,True,22.4,58.6,81.0,A+,9,ODD,3
+STU035,Pavithra R,MECH,1,Fluid Mechanics,4,0.8,79.6,True,22.4,58.3,80.7,A+,9,ODD,3
+STU035,Pavithra R,MECH,1,Machine Design,3,0.75,86.8,True,21.2,62.1,83.3,A+,9,ODD,3
+STU035,Pavithra R,MECH,1,Manufacturing,3,0.65,80.3,True,22.2,62.6,84.8,A+,9,ODD,3
+STU035,Pavithra R,MECH,1,CAD/CAM,4,0.7,87.1,True,19.4,69.5,88.9,A+,9,ODD,3
+STU035,Pavithra R,MECH,1,Strength of Materials,4,0.85,83.9,True,23.5,56.9,80.4,A+,9,ODD,3
+STU036,Kalai Selvi P,IT,3,Web Technologies,3,0.62,89.6,True,23.9,68.1,92.0,O,10,ODD,3
+STU036,Kalai Selvi P,IT,3,Cloud Computing,4,0.72,86.1,True,21.5,62.7,84.2,A+,9,ODD,3
+STU036,Kalai Selvi P,IT,3,Cybersecurity,3,0.8,86.2,True,23.9,70.7,94.6,O,10,ODD,3
+STU036,Kalai Selvi P,IT,3,Big Data Analytics,4,0.78,88.0,True,23.6,70.4,94.0,O,10,ODD,3
+STU036,Kalai Selvi P,IT,3,IoT Systems,3,0.68,84.2,True,20.5,67.9,88.4,A+,9,ODD,3
+STU036,Kalai Selvi P,IT,3,Mobile Development,3,0.65,87.2,True,21.9,71.6,93.5,O,10,ODD,3
+STU037,Manoj Kumar R,IT,2,Web Technologies,3,0.62,71.2,False,15.6,0.0,0.0,DETAINED,0,ODD,3
+STU037,Manoj Kumar R,IT,2,Cloud Computing,4,0.72,72.3,False,17.2,0.0,0.0,DETAINED,0,ODD,3
+STU037,Manoj Kumar R,IT,2,Cybersecurity,3,0.8,63.0,False,14.4,0.0,0.0,DETAINED,0,ODD,3
+STU037,Manoj Kumar R,IT,2,Big Data Analytics,4,0.78,72.9,False,13.4,0.0,0.0,DETAINED,0,ODD,3
+STU037,Manoj Kumar R,IT,2,IoT Systems,3,0.68,62.7,False,18.2,0.0,0.0,DETAINED,0,ODD,3
+STU037,Manoj Kumar R,IT,2,Mobile Development,3,0.65,75.3,True,19.2,55.3,74.5,A,8,ODD,3
+STU038,Sneha Lakshmi T,IT,3,Web Technologies,3,0.62,90.0,True,25.0,71.4,96.4,O,10,ODD,3
+STU038,Sneha Lakshmi T,IT,3,Cloud Computing,4,0.72,92.0,True,22.2,70.0,92.2,O,10,ODD,3
+STU038,Sneha Lakshmi T,IT,3,Cybersecurity,3,0.8,93.0,True,21.8,69.1,90.9,O,10,ODD,3
+STU038,Sneha Lakshmi T,IT,3,Big Data Analytics,4,0.78,90.4,True,21.5,71.2,92.7,O,10,ODD,3
+STU038,Sneha Lakshmi T,IT,3,IoT Systems,3,0.68,91.0,True,25.0,75.0,100.0,O,10,ODD,3
+STU038,Sneha Lakshmi T,IT,3,Mobile Development,3,0.65,92.4,True,24.7,75.0,99.7,O,10,ODD,3
+STU039,Bharath Kumar S,IT,4,Web Technologies,3,0.62,46.3,False,15.3,0.0,0.0,DETAINED,0,ODD,3
+STU039,Bharath Kumar S,IT,4,Cloud Computing,4,0.72,53.3,False,13.0,0.0,0.0,DETAINED,0,ODD,3
+STU039,Bharath Kumar S,IT,4,Cybersecurity,3,0.8,41.9,False,11.7,0.0,0.0,DETAINED,0,ODD,3
+STU039,Bharath Kumar S,IT,4,Big Data Analytics,4,0.78,42.9,False,12.6,0.0,0.0,DETAINED,0,ODD,3
+STU039,Bharath Kumar S,IT,4,IoT Systems,3,0.68,48.6,False,10.3,0.0,0.0,DETAINED,0,ODD,3
+STU039,Bharath Kumar S,IT,4,Mobile Development,3,0.65,52.1,False,11.3,0.0,0.0,DETAINED,0,ODD,3
+STU040,Keerthana V,IT,2,Web Technologies,3,0.62,80.6,True,17.3,64.0,81.3,A+,9,ODD,3
+STU040,Keerthana V,IT,2,Cloud Computing,4,0.72,77.4,True,17.8,59.1,76.9,A,8,ODD,3
+STU040,Keerthana V,IT,2,Cybersecurity,3,0.8,79.2,True,17.9,55.0,72.9,A,8,ODD,3
+STU040,Keerthana V,IT,2,Big Data Analytics,4,0.78,78.1,True,15.3,59.4,74.7,A,8,ODD,3
+STU040,Keerthana V,IT,2,IoT Systems,3,0.68,76.7,True,17.9,59.5,77.4,A,8,ODD,3
+STU040,Keerthana V,IT,2,Mobile Development,3,0.65,72.7,False,18.6,0.0,0.0,DETAINED,0,ODD,3
+STU041,Abishek Mohan N,IT,1,Web Technologies,3,0.62,67.6,False,12.0,0.0,0.0,DETAINED,0,ODD,3
+STU041,Abishek Mohan N,IT,1,Cloud Computing,4,0.72,56.2,False,14.2,0.0,0.0,DETAINED,0,ODD,3
+STU041,Abishek Mohan N,IT,1,Cybersecurity,3,0.8,63.6,False,18.2,0.0,0.0,DETAINED,0,ODD,3
+STU041,Abishek Mohan N,IT,1,Big Data Analytics,4,0.78,65.7,False,14.3,0.0,0.0,DETAINED,0,ODD,3
+STU041,Abishek Mohan N,IT,1,IoT Systems,3,0.68,64.6,False,15.6,0.0,0.0,DETAINED,0,ODD,3
+STU041,Abishek Mohan N,IT,1,Mobile Development,3,0.65,54.7,False,13.8,0.0,0.0,DETAINED,0,ODD,3
+STU042,Ramya Priya K,IT,4,Web Technologies,3,0.62,85.6,True,21.1,68.3,89.4,A+,9,ODD,3
+STU042,Ramya Priya K,IT,4,Cloud Computing,4,0.72,86.6,True,22.0,66.2,88.2,A+,9,ODD,3
+STU042,Ramya Priya K,IT,4,Cybersecurity,3,0.8,94.7,True,20.9,69.5,90.4,O,10,ODD,3
+STU042,Ramya Priya K,IT,4,Big Data Analytics,4,0.78,88.4,True,21.2,62.6,83.8,A+,9,ODD,3
+STU042,Ramya Priya K,IT,4,IoT Systems,3,0.68,88.1,True,21.2,61.6,82.8,A+,9,ODD,3
+STU042,Ramya Priya K,IT,4,Mobile Development,3,0.65,84.7,True,23.0,58.9,81.9,A+,9,ODD,3
+STU043,Sugumar T,IT,3,Web Technologies,3,0.62,42.1,False,11.0,0.0,0.0,DETAINED,0,ODD,3
+STU043,Sugumar T,IT,3,Cloud Computing,4,0.72,39.2,False,14.0,0.0,0.0,DETAINED,0,ODD,3
+STU043,Sugumar T,IT,3,Cybersecurity,3,0.8,39.6,False,11.4,0.0,0.0,DETAINED,0,ODD,3
+STU043,Sugumar T,IT,3,Big Data Analytics,4,0.78,32.4,False,9.3,0.0,0.0,DETAINED,0,ODD,3
+STU043,Sugumar T,IT,3,IoT Systems,3,0.68,35.3,False,9.6,0.0,0.0,DETAINED,0,ODD,3
+STU043,Sugumar T,IT,3,Mobile Development,3,0.65,47.9,False,10.4,0.0,0.0,DETAINED,0,ODD,3
+STU044,Nandini Krishnan R,AIDS,2,Deep Learning,4,0.92,91.4,True,23.2,67.0,90.2,O,10,ODD,3
+STU044,Nandini Krishnan R,AIDS,2,Computer Vision,4,0.9,92.8,True,20.5,65.0,85.5,A+,9,ODD,3
+STU044,Nandini Krishnan R,AIDS,2,Natural Language Processing,3,0.88,91.5,True,20.9,65.6,86.5,A+,9,ODD,3
+STU044,Nandini Krishnan R,AIDS,2,Robotics & Automation,3,0.85,90.5,True,23.9,69.4,93.3,O,10,ODD,3
+STU044,Nandini Krishnan R,AIDS,2,Data Analytics,4,0.75,91.2,True,22.5,75.0,97.5,O,10,ODD,3
+STU044,Nandini Krishnan R,AIDS,2,Statistical Learning,3,0.82,93.1,True,22.8,73.7,96.5,O,10,ODD,3
+STU045,Aakash Sundar V,AIDS,3,Deep Learning,4,0.92,68.2,False,20.2,0.0,0.0,DETAINED,0,ODD,3
+STU045,Aakash Sundar V,AIDS,3,Computer Vision,4,0.9,68.5,False,17.3,0.0,0.0,DETAINED,0,ODD,3
+STU045,Aakash Sundar V,AIDS,3,Natural Language Processing,3,0.88,71.1,False,19.9,0.0,0.0,DETAINED,0,ODD,3
+STU045,Aakash Sundar V,AIDS,3,Robotics & Automation,3,0.85,72.4,False,20.0,0.0,0.0,DETAINED,0,ODD,3
+STU045,Aakash Sundar V,AIDS,3,Data Analytics,4,0.75,77.0,True,16.9,51.6,68.5,B+,7,ODD,3
+STU045,Aakash Sundar V,AIDS,3,Statistical Learning,3,0.82,77.6,True,19.3,60.5,79.8,A,8,ODD,3
+STU046,Pooja Venkat S,AIDS,2,Deep Learning,4,0.92,88.4,True,21.7,71.7,93.4,O,10,ODD,3
+STU046,Pooja Venkat S,AIDS,2,Computer Vision,4,0.9,89.9,True,21.8,62.4,84.2,A+,9,ODD,3
+STU046,Pooja Venkat S,AIDS,2,Natural Language Processing,3,0.88,91.2,True,23.2,57.1,80.3,A+,9,ODD,3
+STU046,Pooja Venkat S,AIDS,2,Robotics & Automation,3,0.85,84.1,True,24.2,64.5,88.7,A+,9,ODD,3
+STU046,Pooja Venkat S,AIDS,2,Data Analytics,4,0.75,89.9,True,23.2,70.7,93.9,O,10,ODD,3
+STU046,Pooja Venkat S,AIDS,2,Statistical Learning,3,0.82,88.5,True,19.8,71.7,91.5,O,10,ODD,3
+STU047,Siva Kumar M,AIDS,4,Deep Learning,4,0.92,51.3,False,13.6,0.0,0.0,DETAINED,0,ODD,3
+STU047,Siva Kumar M,AIDS,4,Computer Vision,4,0.9,56.3,False,15.8,0.0,0.0,DETAINED,0,ODD,3
+STU047,Siva Kumar M,AIDS,4,Natural Language Processing,3,0.88,47.7,False,15.0,0.0,0.0,DETAINED,0,ODD,3
+STU047,Siva Kumar M,AIDS,4,Robotics & Automation,3,0.85,52.3,False,12.7,0.0,0.0,DETAINED,0,ODD,3
+STU047,Siva Kumar M,AIDS,4,Data Analytics,4,0.75,56.7,False,15.8,0.0,0.0,DETAINED,0,ODD,3
+STU047,Siva Kumar M,AIDS,4,Statistical Learning,3,0.82,52.4,False,12.6,0.0,0.0,DETAINED,0,ODD,3
+STU048,Dharani Devi T,AIDS,3,Deep Learning,4,0.92,79.9,True,25.0,63.8,88.8,A+,9,ODD,3
+STU048,Dharani Devi T,AIDS,3,Computer Vision,4,0.9,82.9,True,18.6,61.7,80.3,A+,9,ODD,3
+STU048,Dharani Devi T,AIDS,3,Natural Language Processing,3,0.88,78.9,True,17.1,63.0,80.1,A+,9,ODD,3
+STU048,Dharani Devi T,AIDS,3,Robotics & Automation,3,0.85,77.2,True,22.3,61.5,83.8,A+,9,ODD,3
+STU048,Dharani Devi T,AIDS,3,Data Analytics,4,0.75,75.2,True,17.7,58.8,76.5,A,8,ODD,3
+STU048,Dharani Devi T,AIDS,3,Statistical Learning,3,0.82,83.6,True,20.0,62.7,82.7,A+,9,ODD,3
+STU049,Balaji Raj N,AIDS,1,Deep Learning,4,0.92,60.3,False,14.6,0.0,0.0,DETAINED,0,ODD,3
+STU049,Balaji Raj N,AIDS,1,Computer Vision,4,0.9,68.7,False,16.1,0.0,0.0,DETAINED,0,ODD,3
+STU049,Balaji Raj N,AIDS,1,Natural Language Processing,3,0.88,65.9,False,15.2,0.0,0.0,DETAINED,0,ODD,3
+STU049,Balaji Raj N,AIDS,1,Robotics & Automation,3,0.85,62.1,False,13.8,0.0,0.0,DETAINED,0,ODD,3
+STU049,Balaji Raj N,AIDS,1,Data Analytics,4,0.75,65.0,False,17.7,0.0,0.0,DETAINED,0,ODD,3
+STU049,Balaji Raj N,AIDS,1,Statistical Learning,3,0.82,60.0,False,18.1,0.0,0.0,DETAINED,0,ODD,3
+STU050,Ishwarya Lakshmi P,AIDS,2,Deep Learning,4,0.92,88.3,True,21.8,69.5,91.3,O,10,ODD,3
+STU050,Ishwarya Lakshmi P,AIDS,2,Computer Vision,4,0.9,84.2,True,24.3,69.2,93.5,O,10,ODD,3
+STU050,Ishwarya Lakshmi P,AIDS,2,Natural Language Processing,3,0.88,83.6,True,24.4,70.9,95.3,O,10,ODD,3
+STU050,Ishwarya Lakshmi P,AIDS,2,Robotics & Automation,3,0.85,89.6,True,25.0,73.5,98.5,O,10,ODD,3
+STU050,Ishwarya Lakshmi P,AIDS,2,Data Analytics,4,0.75,79.7,True,19.9,63.8,83.7,A+,9,ODD,3
+STU050,Ishwarya Lakshmi P,AIDS,2,Statistical Learning,3,0.82,89.1,True,22.9,75.0,97.9,O,10,ODD,3
